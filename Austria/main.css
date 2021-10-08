@@ -1,31 +1,70 @@
 body{
 	background: #1A2128;
-	color: white;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 header{
-		text-align: center;
+
+	text-align: center;
 }
-h1{
+.banner{
 	color: #7DBEFF;
 	background: #141A1F;
 	display: inline-block;
 	padding: 10px 20px;
 }
-.content{
-
-	list-style-type: none;	
-	display: inline;
-
+.msg{
+	text-align: justify;
+	color: #FF9191;
+	font-size: 13px;
+	inline-size: 690px;
+	display: inline-flex;
+	background: #141A1F;
+	padding: 0px 5px;
 }
+.content{
+	text-align: center;
+}
+.box{
+	background: #141A1F;
+	padding: 10px;
+	display: inline-block;
+}
+
 .pic{
 	background: #282c34;
 	padding: 10px;
-margin-left: 170px;
+	margin-right: 590px;
 	display: inline-block;
 }
 .desc{
-color: red;
-right: 250px;
-position: absolute;
+	color: #7DBEFF;
+	background: #282c34;
+	inline-size: 420px;
+	padding: 0px 20px;
+	margin: 5px;
+	right: 450px;
+	text-align: left;
+	position: absolute;
+	display: inline-table;
+}
+.profile{
+	color: #9ACD68;
+	inline-size: 420px;
+	margin-top: 20px;
+	text-align: center;
+	background: #1a2128;
+	padding: 10px;
+}
+h6{
+	list-style-type: none;
+	display: inline;
+
+}
+.extra{
+	background: #141A1F;
+	color: #E5C07B;
+	right: 10px;
+	bottom: 0px;
+	position: absolute;
+	font-size: 10px;
 }

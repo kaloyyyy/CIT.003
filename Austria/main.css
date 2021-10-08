@@ -1,0 +1,31 @@
+body{
+	background: #1A2128;
+	color: white;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+header{
+		text-align: center;
+}
+h1{
+	color: #7DBEFF;
+	background: #141A1F;
+	display: inline-block;
+	padding: 10px 20px;
+}
+.content{
+
+	list-style-type: none;	
+	display: inline;
+
+}
+.pic{
+	background: #282c34;
+	padding: 10px;
+margin-left: 170px;
+	display: inline-block;
+}
+.desc{
+color: red;
+right: 250px;
+position: absolute;
+}

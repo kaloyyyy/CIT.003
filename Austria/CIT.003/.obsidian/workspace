@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "afe7bbbf872b6737",
+    "type": "split",
+    "children": [
+      {
+        "id": "773448038b656ce8",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "052d3c29169bd0fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1c6cae7e03c7f0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91381c14962e5ddc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4d550ca49c1f076b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "58d3a2a22f209316",
+    "type": "split",
+    "children": [
+      {
+        "id": "5bc3d5111c0cdfb6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4bdc3e0995b60681",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "773448038b656ce8",
+  "lastOpenFiles": [
+    "Policy.md",
+    "Blog.md",
+    "Navigation Bar.md",
+    "Home Page - Uling Roasters.md",
+    "About Page.md",
+    "Contact Page.md",
+    "Known Endorsers.md",
+    "History.md",
+    "Local Branches.md",
+    "I'm Hungry.md"
+  ]
+}

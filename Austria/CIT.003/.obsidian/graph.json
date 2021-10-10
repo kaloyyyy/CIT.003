@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "#home",
+      "color": {
+        "a": 1,
+        "rgb": 11531081
+      }
+    },
+    {
+      "query": "#hungry",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "#about",
+      "color": {
+        "a": 1,
+        "rgb": 5417696
+      }
+    },
+    {
+      "query": "#blog",
+      "color": {
+        "a": 1,
+        "rgb": 15503073
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -1.1,
+  "nodeSizeMultiplier": 1.22865168539326,
+  "lineSizeMultiplier": 3.32478632478632,
+  "collapse-forces": false,
+  "centerStrength": 0.582352941176471,
+  "repelStrength": 14.3529411764706,
+  "linkStrength": 1,
+  "linkDistance": 124,
+  "scale": 0.7132754626224437,
+  "close": false
+}

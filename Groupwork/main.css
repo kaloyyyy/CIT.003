@@ -1,0 +1,53 @@
+body{
+	background: #1A2128;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color: white;
+	margin: 0px;
+}
+header{
+	text-align: center;
+	background: #897;
+	margin: 0px;
+}
+header ul{
+	list-style-type: none;
+	margin: 0px;
+}
+header ul li{
+	font-size: 39px;
+	display: inline-block;
+}
+a img{
+	width: auto;
+	height: 35px;
+	margin: 0px;
+}
+
+.navBar{
+	background: #666;
+	margin: 0px;
+	text-align: center;
+	margin: 0px;
+}
+.msgheader{
+	margin: 0px;
+	text-align: center;
+	background: #777;
+}
+.nav{
+	margin: 0px;
+	background: #666;
+	list-style-type: none;
+
+}
+.nav li{
+	font-size: 20px;
+	padding: 0px;
+	background: #222;
+	display: inline-block;
+	margin: 0px;
+}
+ul li a{
+	color: white;
+	text-decoration: none;
+}

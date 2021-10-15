@@ -6,7 +6,8 @@ body{
 }
 header{
 	text-align: center;
-	background: #897;
+	background: yellow;
+	color: brown;
 	margin: 0px;
 }
 header ul{

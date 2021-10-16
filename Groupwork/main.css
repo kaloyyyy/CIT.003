@@ -2,7 +2,18 @@ body{
 	background: #1A2128;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	color: white;
-	margin: 0px 0px;
+	margin: 0px 269px;
+}
+header{
+	background-color: #1A2128;
+}
+.division{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
 }
 .navbar{
 	text-align: left;
@@ -11,7 +22,7 @@ body{
 	margin: 0px;
 }
 .nav{
-	margin-left: 169px;
+	margin-left: 0;
 }
 
 ul{
@@ -22,13 +33,12 @@ header ul{
 	margin: 0px;
 }
 ul li{
-	display: inline-block;
-	margin: 0px 25px;
+	display: flex;
+	padding-right: 10px;
 }
 .punchline{
 	text-align: left;
 	font-size: 12px;
-	margin-left:  240px;
 }
 
 a img{
@@ -41,12 +51,25 @@ li a{
 	text-decoration: none;
 	color: black;
 }
-
+.mainContent{
+	background-color: pink;
+	margin: 0px;
+	color: black;
+}
+.fb{
+	background: gray;
+}
+.fb img{
+	text-align: right;
+	width: auto;
+	height: 35px;
+	margin: 0px;
+}
 
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: green;
+	background-color: green;
   padding: 5px;
   font-size: 14px;
   border: none;

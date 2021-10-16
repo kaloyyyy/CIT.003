@@ -7,8 +7,10 @@
         "id": "773448038b656ce8",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "image",
+          "state": {
+            "file": "Pasted image 20211015223355.png"
+          }
         }
       }
     ],
@@ -65,6 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Pasted image 20211015223355.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,15 +86,15 @@
   },
   "active": "773448038b656ce8",
   "lastOpenFiles": [
-    "I'm Hungry.md",
-    "Policy.md",
-    "Blog.md",
-    "Navigation Bar.md",
+    "Pasted image 20211015223355.png",
+    "Pasted image 20211015223737.png",
     "Home Page - Uling Roasters.md",
-    "About Page.md",
-    "Contact Page.md",
-    "Known Endorsers.md",
     "History.md",
+    "I'm Hungry.md",
+    "Known Endorsers.md",
+    "Navigation Bar.md",
+    "Policy.md",
+    "Now Hiring.md",
     "Local Branches.md"
   ]
 }

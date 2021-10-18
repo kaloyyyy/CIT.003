@@ -1,71 +1,47 @@
 body{
-	background: #1A2128;
+	background: lightgray;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	color: white;
-	margin: 0px 269px;
+	margin: 0px 175px;
+	padding: 0px;
 }
-header{
-	background-color: #1A2128;
+.navsplit{
+	margin: 0px;
 }
-.division{
-	display: flex;
+.navleft a{
+	text-decoration: none;
+	color: pink;
+	font-size: 16px;
+}
+.navright{
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	margin: 0px;
 	list-style-type: none;
-	justify-content: space-between;
+}
+.navleft ul{
+	display: flex;
 	background-color: black;
 	margin: 0px;
 	padding: 0px;
 }
-.navbar{
-	text-align: left;
-	background: yellow;
-	color: black;
-	margin: 0px;
-}
-.nav{
-	margin-left: 0;
-}
 
-ul{
-	display: flex;
-}
-header ul{
-	list-style-type: none;
-	margin: 0px;
-}
-ul li{
-	display: flex;
-	padding-right: 10px;
-}
-.punchline{
-	text-align: left;
-	font-size: 12px;
-}
-
-a img{
+.navleft ul .logo img
+{
+	padding: 0px ;
 	width: auto;
-	height: 45px;
+	height: 55px;
 	margin: 0px;
+
 }
 
-li a{
-	text-decoration: none;
-	color: black;
-}
-.mainContent{
-	background-color: pink;
-	margin: 0px;
-	color: black;
-}
-.fb{
-	background: gray;
-}
-.fb img{
-	text-align: right;
-	width: auto;
-	height: 35px;
-	margin: 0px;
-}
 
+.navleftlist li{
+display: inline-flex;
+padding-right: 4px;
+}
 
 /* Dropdown Button */
 .dropbtn {

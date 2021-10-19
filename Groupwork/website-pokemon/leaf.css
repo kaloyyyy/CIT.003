@@ -1,61 +1,63 @@
 
-            @font-face{
-                font-family: Pokemon-Classic;
-                src: url(Pokemon-Classic.ttf);
-            }
-            body{
-                background: #749e54;
-                margin: 0%;
-                padding: 0%;
-                font-family: Pokemon-Classic;
-            }
-            header{
-                background: #ee1515;
-                padding: 20px;
-            }
-            section{
-                background: #222224;
-                padding: 1px;
-                color: #f0f0f0;
-            }
-            .grass{
-		style=color: rgb(94, 255, 0);
-                margin: 0%
-	    }
-            .poison{
-               style=color: #81117f;
-	       margin 0%
-	    }
-	    p{
-	      style=color:#ffffff
-	     }
-            footer{
-                padding: 10px 0px 10px 0px;
-                display: flex;
-                flex-direction: row;
-                margnin: 0% 12%;
-            }
-            .default{
+@font-face{
+    font-family: Pokemon-Classic;
+    src: url(Pokemon-Classic.ttf);
+}
+   body{
+    background: #749e54;
+    margin: 0%;
+    padding: 0%;
+    font-family: Pokemon-Classic;
+}
+header{
+    background: #ee1515;
+    padding: 20px;
+}
+section{
+    background: #222224;
+    padding: 1px;
+    color: #f0f0f0;
+}
 
-                padding: 0;
-                width: 900px; height: 375px;
-                margin: auto;
+.grass{
+color: rgb(94, 255, 0);
+margin: 0%;
+}
 
-            }
+.poison{
+    color: #81117f;
+}
 
-	.pokImg{
-    		opacity: 1;
-    		background-color: transparent;
-   		 animation: appearPokemon 1s;
-	}
-	@keyframes appearPokemon{
-  	 0%{
-    	   opacity: 0;
-       	   background: #749e54;
+p{
+color:#ffffff;
+}
+footer{
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    margin: 0% 12%;
+}
+.default{
 
-  	  }
-   	 100%{
-       		 opacity: 1;
-    	 }
+    padding: 0;
+    width: 900px; height: 375px;
+    margin: auto;
 
-	}
+}
+
+.pokImg{
+		opacity: 1;
+		background-color: transparent;
+		 animation: appearPokemon 1s;
+}
+@keyframes appearPokemon{
+	 0%{
+	   opacity: 0;
+   	   background: #749e54;
+
+	  }
+	 100%{
+   		 opacity: 1;
+	 }
+
+}

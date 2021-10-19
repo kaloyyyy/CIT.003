@@ -67,7 +67,7 @@ footer{
             }
         </style>
     flex-direction: row;
-    margin: 0% 12%  ;
+    margin: 0% 12%;
 }
 
 .default{
@@ -75,8 +75,6 @@ footer{
     width: 900px; height: 375px;
     margin: auto;
 }
-
-
 
 .pokeImg{
     opacity: 1;

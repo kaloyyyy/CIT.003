@@ -27,24 +27,26 @@ section{
     padding: 1px;
     color: #f0f0f0;
 }
-.gen1{
+.genName{
+    margin: 0% 15%;
+    color: white;
+    display: flex;
+    background: black;
+}
+.gen{
     background: #f0f0f0;
     margin: 0% 15%;
     padding: 30px 0px 0px 10px;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    flex-flow: row wrap;
+    flex-shrink: 0;
+    align-content: flex-start;
 }
-.gen2{
-    background: #f0f0f0;
-    margin: 0% 15%;
-    padding: 30px 0px 0px 10px;
-    display: flex;
-    flex-direction: row;
-}
+
 .pokemon{
     padding: 10px 0px 0px 0px;
     width: 350PX; height: 300px;
-    margin: auto;
 }
 .leaf{
     color: #73ac31;
@@ -68,10 +70,11 @@ section{
     animation:playBulbasaur 3s;
     background-color: black;
 }
-
+h3{
+    margin: 0%;
+}
 .pTitle{
 color:black;
-
 }
 @keyframes playBulbasaur{
     from{
@@ -82,11 +85,10 @@ color:black;
     background-color: black;
     }
 }
-
-.pokemon{    
-    padding-bottom: 12px;
+.pokemon{
+    padding-bottom: 15px;
     border: 5px solid transparent;
-            }
+}
 .pokemon:hover{
   border: 5px solid red;
 }

@@ -11,6 +11,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: black;
 
 }
 a:visited{
@@ -45,35 +46,31 @@ section{
     width: 350PX; height: 300px;
     margin: auto;
 }
-.leaf a{
+.leaf{
     color: #73ac31;
+    background-color: black;
+    padding: 0%; 
+    margin: 0%;
+    animation:playBulbasaur 5s;
 }
 
-#bulbasaur{
-color: #73ac31; 
-padding: 0%; 
-margin: 0%;
-animation:playBulbasaur 5s;
-background-color: black;
-}
-.fire a{
+.fire{
     color: #de5239; 
-}
-#charmander{
     padding: 0%; 
     margin: 0%;
     animation:playBulbasaur 5s;
     background-color: black;
 }
-.water a{
+.water{
     color: #8bc5cd; 
-}
-#squirtle{
     padding: 0%; 
     margin: 0%;
     animation:playBulbasaur 5s;
     background-color: black;
 }
+
+
+
 .pTitle{
 color:black;
 }

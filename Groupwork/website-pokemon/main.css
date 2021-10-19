@@ -69,10 +69,9 @@ section{
     background-color: black;
 }
 
-
-
 .pTitle{
 color:black;
+
 }
 @keyframes playBulbasaur{
     from{
@@ -95,7 +94,7 @@ color:black;
 .pokeImg{
     opacity: 1;
     background-color: transparent;
-    animation: appearPokemon 3s;
+    animation: appearPokemon 2s;
 }
 @keyframes appearPokemon{
     0%{
@@ -107,4 +106,12 @@ color:black;
         opacity: 1;
     }
 
+}
+header center img{
+    opacity: 1;
+    border: 5px solid red;
+}
+header center img:hover{
+    opacity: 0.7;
+    border: 5px solid black;
 }

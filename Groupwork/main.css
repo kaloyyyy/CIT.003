@@ -1,17 +1,21 @@
+header{
+	background-color: yellow;
+}
 body{
 	background: lightgray;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	color: white;
-	margin: 0px 175px;
+	margin: 0% 0%;
 	padding: 0px;
 }
+
 .navsplit{
 	margin: 0px;
 }
 .navleft a{
 	text-decoration: none;
-	color: pink;
-	font-size: 16px;
+	color: black;
+	font-size: 150%;
 }
 .navright{
 	margin: 0px;
@@ -23,9 +27,9 @@ ul{
 }
 .navleft ul{
 	display: flex;
-	background-color: black;
+	background-color: yellow;
 	margin: 0px;
-	padding: 0px;
+	padding: 0% 10%;
 }
 
 .navleft ul .logo img
@@ -45,7 +49,7 @@ padding-right: 4px;
 
 /* Dropdown Button */
 .dropbtn {
-	background-color: green;
+	background-color: yellow;
   padding: 5px;
   font-size: 14px;
   border: none;
@@ -85,4 +89,4 @@ padding-right: 4px;
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: red;}

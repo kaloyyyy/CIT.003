@@ -19,7 +19,6 @@
                 color: #f0f0f0;
             }
             footer{
-
                 padding: 10px 0px 10px 0px;
                 display: flex;
                 flex-direction: row;
@@ -41,7 +40,7 @@
 	@keyframes appearPokemon{
   	 0%{
     	   opacity: 0;
-       	   background: #de5239;
+       	   background: #73ac31;
 
   	  }
    	 100%{

@@ -1,8 +1,7 @@
-<style>
-            @font-face{
-                font-family: Pokemon-Classic;
-                src: url(Pokemon-Classic.ttf);
-            }
+@font-face{
+    font-family: Pokemon-Classic;
+     src: url(Pokemon-Classic.ttf); 
+ }
             body{
                 background: #f0f0f0;
                 margin: 0%;
@@ -70,4 +69,10 @@
                      transform: scale(1.3);
                 }
             }
-        </style>
+            div{
+                padding-bottom: 12px;
+                  border: 5px solid transparent;
+            }
+div:hover{
+  border: 5px solid black;
+}

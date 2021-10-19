@@ -51,21 +51,21 @@ section{
     background-color: black;
     padding: 0%; 
     margin: 0%;
-    animation:playBulbasaur 5s;
+    animation:playBulbasaur 3s;
 }
 
 .fire{
     color: #de5239; 
     padding: 0%; 
     margin: 0%;
-    animation:playBulbasaur 5s;
+    animation:playBulbasaur 3s;
     background-color: black;
 }
 .water{
     color: #8bc5cd; 
     padding: 0%; 
     margin: 0%;
-    animation:playBulbasaur 5s;
+    animation:playBulbasaur 3s;
     background-color: black;
 }
 
@@ -94,7 +94,7 @@ color:black;
 .pokeImg{
     opacity: 1;
     background-color: transparent;
-    animation: appearPokemon 2s;
+    animation: appearPokemon 1s;
 }
 @keyframes appearPokemon{
     0%{
@@ -109,9 +109,9 @@ color:black;
 }
 header center img{
     opacity: 1;
-    border: 5px solid red;
+    border: 5px solid rgba(255,0,0,1);
 }
 header center img:hover{
     opacity: 0.7;
-    border: 5px solid black;
+    border: 5px solid rgba(255,255,255,.5);
 }

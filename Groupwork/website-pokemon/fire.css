@@ -30,16 +30,15 @@ footer{
     flex-direction: row;
     margin: 0% 12%  ;
 }
-.pokimg{
-    padding: 5px 0px 0px 0px;
-    width: 650px; 
-    height: 375px;
-}
+
 .default{
     padding: 0;
     width: 900px; height: 375px;
     margin: auto;
 }
+
+
+
 .pokeImg{
     opacity: 1;
     background-color: transparent;

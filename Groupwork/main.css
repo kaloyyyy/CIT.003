@@ -59,7 +59,7 @@ padding-right: 4px;
 .dropdown {
   position: relative;
   display: inline-block;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -76,8 +76,8 @@ padding-right: 4px;
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  font-size: 12px;
-  padding: 0px;
+  font-size: 20px;
+  padding: 3%;
   text-decoration: none;
   display: block;
 }

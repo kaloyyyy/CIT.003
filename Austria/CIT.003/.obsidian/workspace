@@ -7,10 +7,8 @@
         "id": "773448038b656ce8",
         "type": "leaf",
         "state": {
-          "type": "image",
-          "state": {
-            "file": "Pasted image 20211016024125.png"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -67,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20211016024125.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -77,8 +74,39 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "d2acb21eb273a386",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9df212850ecaefa6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c734921f549c6568",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,15 +114,15 @@
   },
   "active": "773448038b656ce8",
   "lastOpenFiles": [
-    "Pasted image 20211016024125.png",
-    "Pasted image 20211015223737.png",
-    "Pasted image 20211015223355.png",
     "Home Page - Uling Roasters.md",
     "History.md",
-    "I'm Hungry.md",
-    "Known Endorsers.md",
-    "Navigation Bar.md",
-    "Policy.md",
-    "Now Hiring.md"
+    "Delivery.md",
+    "Blogs and News.md",
+    "About Page.md",
+    "Food Menu.md",
+    "Now Hiring.md",
+    "Contact Page.md",
+    "Untitled.md",
+    "I'm Hungry.md"
   ]
 }

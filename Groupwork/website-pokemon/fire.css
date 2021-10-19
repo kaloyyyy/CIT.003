@@ -39,11 +39,7 @@ footer{
 
 
 
-.pokeImg{
-    opacity: 1;
-    background-color: transparent;
-    animation: appearPokemon 1s;
-}
+
 @keyframes appearPokemon{
     0%{
         opacity: 0;

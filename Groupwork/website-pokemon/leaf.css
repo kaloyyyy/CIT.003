@@ -4,7 +4,7 @@
                 src: url(Pokemon-Classic.ttf);
             }
             body{
-                background: #73ac31;
+                background: #749e54;
                 margin: 0%;
                 padding: 0%;
                 font-family: Pokemon-Classic;
@@ -40,7 +40,7 @@
 	@keyframes appearPokemon{
   	 0%{
     	   opacity: 0;
-       	   background: #73ac31;
+       	   background: #749e54;
 
   	  }
    	 100%{

@@ -18,6 +18,17 @@
                 padding: 1px;
                 color: #f0f0f0;
             }
+            .grass{
+		style=color: rgb(94, 255, 0);
+                margin: 0%
+	    }
+            .poison{
+               style=color: #81117f;
+	       margin 0%
+	    }
+	    p{
+	      style=color:#ffffff
+	     }
             footer{
                 padding: 10px 0px 10px 0px;
                 display: flex;

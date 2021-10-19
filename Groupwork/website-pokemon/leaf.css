@@ -1,0 +1,50 @@
+
+            @font-face{
+                font-family: Pokemon-Classic;
+                src: url(Pokemon-Classic.ttf);
+            }
+            body{
+                background: #73ac31;
+                margin: 0%;
+                padding: 0%;
+                font-family: Pokemon-Classic;
+            }
+            header{
+                background: #ee1515;
+                padding: 20px;
+            }
+            section{
+                background: #222224;
+                padding: 1px;
+                color: #f0f0f0;
+            }
+            footer{
+
+                padding: 10px 0px 10px 0px;
+                display: flex;
+                flex-direction: row;
+            }
+            .default{
+
+                padding: 0;
+                width: 900px; height: 375px;
+                margin: auto;
+
+            }
+
+	.pokImg{
+    		opacity: 1;
+    		background-color: transparent;
+   		 animation: appearPokemon 1s;
+	}
+	@keyframes appearPokemon{
+  	 0%{
+    	   opacity: 0;
+       	   background: #de5239;
+
+  	  }
+   	 100%{
+       		 opacity: 1;
+    	 }
+
+	}

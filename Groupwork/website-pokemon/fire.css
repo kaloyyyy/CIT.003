@@ -26,7 +26,46 @@ p{
 }
 footer{
     padding: 10px 0px 10px 0px;
-    display: flex;
+    display: flex;<style>
+            @font-face{
+                font-family: Pokemon-Classic;
+                src: url(Pokemon-Classic.ttf);
+            }
+            body{
+                background: #73ac31;
+                margin: 0%;
+                padding: 0%;
+                font-family: Pokemon-Classic;
+            }
+            header{
+                background: #ee1515;
+                padding: 20px;
+            }
+            section{
+                background: #222224;
+                padding: 1px;
+                color: #f0f0f0;
+            }
+            footer{
+
+                padding: 10px 0px 10px 0px;
+                display: flex;
+                flex-direction: row;
+            }
+            .pokimg{
+
+                margin: 0px 0px 0px 200px;
+                width: 375; height: 375;
+
+            }
+            .default{
+
+                padding: 0;
+                width: 900px; height: 375px;
+                margin: auto;
+
+            }
+        </style>
     flex-direction: row;
     margin: 0% 12%  ;
 }

@@ -1,3 +1,5 @@
+#bannerNeedsFixingLater
+
 #home[[About Page]][[Now Hiring]][[I'm Hungry]][[Blogs and News]]
 # color scheme??
 193,67,71 - red

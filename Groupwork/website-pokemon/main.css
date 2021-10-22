@@ -30,7 +30,9 @@ section{
 .genName{
     margin: 0% 15%;
     color: white;
+    padding: 0% 1%;
     display: flex;
+    font-size: 169%;
     background: black;
 }
 .gen{
@@ -40,7 +42,7 @@ section{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    flex-shrink: 0;
+    flex-shrink: 1;
     align-content: flex-start;
 }
 
@@ -58,8 +60,8 @@ section{
 
 .fire{
     color: #de5239; 
-    padding: 0%; 
-    margin: 0%;
+    padding: 0%;
+    margin: 0%; 
     animation:playBulbasaur 3s;
     background-color: black;
 }
@@ -115,5 +117,4 @@ header center img{
 }
 header center img:hover{
     opacity: 0.7;
-    border: 5px solid rgba(255,255,255,.5);
 }

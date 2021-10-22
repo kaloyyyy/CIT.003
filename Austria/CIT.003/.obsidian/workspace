@@ -7,8 +7,11 @@
         "id": "773448038b656ce8",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Home Page - Uling Roasters.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home Page - Uling Roasters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Home Page - Uling Roasters.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -102,7 +107,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Home Page - Uling Roasters.md"
+              }
             }
           }
         ],

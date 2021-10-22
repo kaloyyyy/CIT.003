@@ -1,57 +1,53 @@
 header{
-	background-color: yellow;
+	background: rgba(193,67,71,1)
 }
 body{
-	background: lightgray;
+	background: rgba(193,67,71,0.2);
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
-	color: white;
+	color: rgb(251,199,100);
 	margin: 0% 0%;
 	padding: 0px;
 }
-
-.navsplit{
-	margin: 0px;
-}
-.navleft a{
+a{
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	text-decoration: none;
-	color: black;
-	font-size: 150%;
+	color: rgb(251, 199, 100 );
 }
-.navright{
-	margin: 0px;
-	padding: 0px;
+.banner{
+background-image: url("bannerV2.png");
+width: 100%;
+background-color: rgba(193,67,71,1);
+height: auto;
+overflow: hidden;
 }
-ul{
-	margin: 0px;
-	list-style-type: none;
-}
-.navleft ul{
+
+.banner img{
 	display: flex;
-	background-color: yellow;
-	margin: 0px;
-	padding: 0% 10%;
+	width: 16%;
+	opacity: 1;
+	height: auto;
+	margin: 0% 0%;
+}
+.banner img:hover{;
+	background: rgba(193,67,71,0.2);
+}
+.nav{
+	background-color: rgba(193,67,71,1);
+	margin: 0 30%;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+div .dropdown{
+	padding: 0px 20px;
 }
 
-.navleft ul .logo img
-{
-	padding: 0px ;
-	width: auto;
-	height: 55px;
-	margin: 0px;
-
-}
-
-
-.navleftlist li{
-display: inline-flex;
-padding-right: 4px;
-}
 
 /* Dropdown Button */
 .dropbtn {
-	background-color: yellow;
-  padding: 5px;
-  font-size: 14px;
+	background-color: rgb(193,67,71);
+  padding: 0px;
+  font-size: 20px;
   border: none;
 }
 
@@ -59,7 +55,7 @@ padding-right: 4px;
 .dropdown {
   position: relative;
   display: inline-block;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 /* Dropdown Content (Hidden by Default) */

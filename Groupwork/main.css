@@ -68,6 +68,25 @@ div #banner{
   margin: 0% 0%;
 }
 
+.diRaw{
+  border: solid rgba(193,67,71,1) 3px;
+  min-width: 70%;
+  border-radius: 10px;
+  padding: 1% 2%;
+  display: inline-flex;
+  overflow: auto;
+  color: rgb(193,67,71);
+  margin: 1% 15%;
+  justify-content: space-evenly;
+  background-color: rgba(240,166,93,0.9);
+}
+.history{
+  padding-top: 1%;
+  width: 60%;
+  margin-left: 5%;
+}
+
+
 
 /* Dropdown Button */
 .dropbtn {
@@ -186,7 +205,7 @@ div #banner{
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
+  top: 5%;
 }
 
 /* The dots/bullets/indicators */

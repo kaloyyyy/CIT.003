@@ -1,22 +1,27 @@
 body{
   background: rgba(220, 180, 108, 1);
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  color: rgb(251, 199, 100);
+  color: rgb(193,67,71);
   margin: 0% 0%;
   padding: 0px;
 }
 a{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   text-decoration: none;
-  color: black;
+  color: rgb(251, 199, 100 );
 }
 .punchline h4{
+  color: rgb(251, 199, 100);
   margin: 0px;
   padding: 0px;
-  font-size: 1.2em;
+  font-size: 1.05em;
+}
+.currentPage{
+  border: none  rgb(251, 199, 100) 4px;
+  border-bottom-style: solid;
 }
 div #banner{
   width: 100%;
-  border: solid black 0px;
   margin: 0px;
   padding: 0px;
 }
@@ -28,7 +33,6 @@ div #banner{
 .banner div{
   margin: 0%;
 }
-
 #logo img{
   display: flex;
   left: 0;
@@ -43,6 +47,24 @@ div #banner{
 .header {
   background: rgba(193,67,71,1);  
   text-align: center;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+.navbar{
+   position: sticky;
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 25%; 
+}
+#navbar{
+  background: rgba(193,67,71,1);  
+  margin: 0% 0%;
 }
 
 
@@ -66,8 +88,8 @@ div #banner{
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 50%;
-  max-width: 70%;
+  min-width: 60%;
+  max-width: 80%;
   padding: 1%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;

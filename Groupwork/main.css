@@ -1,59 +1,78 @@
-header{
-	background: rgba(193,67,71,1);  
-}
 body{
-	background: rgba(220, 180, 108, 1);
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
-	color: rgb(251, 199, 100);
-	margin: 0% 0%;
-	padding: 0px;
+  background: rgba(220, 180, 108, 1);
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: rgb(193,67,71);
+  margin: 0% 0%;
+  padding: 0px;
 }
 a{
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
-	text-decoration: none;
-	color: rgb(251, 199, 100 );
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-decoration: none;
+  color: rgb(251, 199, 100 );
 }
-.nav a{
-  font-size: 1em;
+.punchline h4{
+  color: rgb(251, 199, 100);
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.05em;
 }
-.banner{
-background-image: url("Background.png");
-width: 100%;
-background-color: rgba(193,67,71,1);
-height: auto;
-overflow: hidden;
+.currentPage{
+  border: none  rgb(251, 199, 100) 4px;
+  border-bottom-style: solid;
 }
-.navLine{
-
-  position: sticky;
-  top: 0px;
+div #banner{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+#banner img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.banner div{
+  margin: 0%;
+}
+#logo img{
+  display: flex;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  top: 3%;
+  width: 12%;
+  height: auto;
+}
+.header {
+  background: rgba(193,67,71,1);  
+  text-align: center;
+}
+.sticky{
+  position: fixed;
+  top: 0;
   width: 100%;
 }
-.banner img{
-	display: flex;
-	width: 12%;
-	opacity: 1;
-	height: auto;
-	margin: 0.2% 0%;
+.sticky + .content {
+  padding-top: 2%;
 }
-.banner img:hover{;
-	background: rgba(193,67,71,0.2);
+.navbar{
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 25%; 
+}
+#navbar{
+  z-index: 10;
+  background: rgba(193,67,71,1);  
+  margin: 0% 0%;
+}
 
-}
-.nav{
-	background-color: rgba(193,67,71,1);
-	margin: 0% 24%;
-  margin-top: 0%;
-	display: flex;
-	justify-content: space-around;
-	text-align: center;
-  margin-bottom: 0%;
-}
 .diRaw{
   border: solid rgba(193,67,71,1) 3px;
   min-width: 70%;
   border-radius: 10px;
-  padding: 1% 5%;
+  padding: 1% 2%;
   display: inline-flex;
   overflow: auto;
   color: rgb(193,67,71);
@@ -64,25 +83,16 @@ overflow: hidden;
 .history{
   padding-top: 1%;
   width: 60%;
-  margin-left: 1.5%;
+  margin-left: 5%;
 }
-div .dropdown{
-  margin-top: 0.5%;
-	padding: 0px 20px;
-}
-.currentPage{
-  border: none  rgb(251, 199, 100) 4px;
-  border-bottom-style: solid;
-}
-.header{
-  border: none  rgba(255,255, 255,0.6) 2px;
-  border-bottom-style: solid;
-}
+
+
+
 /* Dropdown Button */
 .dropbtn {
-	background-color: rgb(193,67,71);
+  background-color: rgb(193,67,71);
   padding: 0px;
-  font-size: 20px;
+  font-size: 1.1em;
   border: none;
 }
 
@@ -94,15 +104,15 @@ div .dropdown{
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-	text-align: left;
-	display: none;
-	position: absolute;
-	background-color: #f1f1f1;
-	min-width: 50%;
-	max-width: 70%;
-	padding: 1%;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
+  text-align: left;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 60%;
+  max-width: 80%;
+  padding: 1%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 /* Links inside the dropdown */
@@ -126,13 +136,10 @@ div .dropdown{
   text-decoration: underline;
 }
 
-
-
 .slideshow{
   left: 0px;
+  padding-top: 20px;
 }
-
-
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -147,9 +154,9 @@ div .dropdown{
   display: none;
 }
 .mySlides img{
-	height: 400px;
-	width: 400px;
-	object-fit: contain;
+  height: 400px;
+  width: 400px;
+  object-fit: contain;
 }
 /* Next & previous buttons */
 .prev, .next {
@@ -198,7 +205,7 @@ div .dropdown{
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
+  top: 5%;
 }
 
 /* The dots/bullets/indicators */

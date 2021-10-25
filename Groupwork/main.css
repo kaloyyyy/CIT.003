@@ -42,7 +42,7 @@ overflow: hidden;
 .diRaw{
   border: solid rgba(193,67,71,1) 3px;
   border-radius: 10px;
-  padding: 1% 0%;
+  padding: 1% 1%;
   display: inline-flex;
   overflow: auto;
   color: rgb(193,67,71);

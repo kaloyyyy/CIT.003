@@ -107,7 +107,7 @@ div #banner{
   color: rgb(251, 199, 100);
 }
 .dropdown a:hover{
-  color: rgba(193,67,71,0.8);
+  color: rgba(251, 199, 100,1);
 }
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -140,14 +140,14 @@ div #banner{
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;   z-index: 10;}
+.dropdown-content a:hover {background-color: white;   z-index: 10;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;  z-index: 10;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: rgb(251, 199, 100);
+  background-color: rgba(255,255,255,0.2);
   z-index: 10;
 }
 .slideshow{
@@ -263,7 +263,7 @@ div #banner{
 
 /*footer part*/
 .footer{
-  display: flex;
+  display:flex;
   justify-content: space-evenly; 
   z-index: 10;
 }
@@ -294,7 +294,7 @@ div #banner{
 /* The container <div> - needed to position the dropdown content */
 .dropdown .footer{
   position: relative;
-  display: inline;
+  display: inline-flex;
   z-index: 10;
   height: auto;
 }
@@ -322,7 +322,7 @@ div #banner{
   color: black;
   font-size: 18px;
   padding: 1%;
-  display: block;
+  display: inline-block;
   z-index: 10;
 }
 

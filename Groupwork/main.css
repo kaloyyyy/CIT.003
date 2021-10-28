@@ -108,6 +108,7 @@ div #banner{
 }
 .dropdown a:hover{
   color: rgba(251, 199, 100,1);
+
 }
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -331,6 +332,10 @@ div #banner{
   background-color: rgba(86,59,66, 0.1);   
   z-index: 10;
   height: 10;
+    -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
 /* Show the dropdown menu on hover */
@@ -341,6 +346,8 @@ div #banner{
   background-color: rgba(251, 199, 100,0.8);
   text-decoration: underline;
   z-index: 10;
+  animation-name: transition;
+  animation-duration: 1s;
 }
 .logofooter{
   width: 50%;
@@ -349,4 +356,8 @@ div #banner{
 .dropbtnlogo{
   background-color: rgb(86,59,66);
   border-width: 0px;
+}
+@keyframes transition {
+  from {background-color: rgba(86,59,66,1);}
+  to {background-color: rgba(251, 199, 100,0.8);}
 }

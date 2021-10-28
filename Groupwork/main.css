@@ -9,6 +9,7 @@ a{
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   text-decoration: none;
   color: rgb(251, 199, 100 );
+  margin-bottom: 5%;
 }
 /*end of general css*/
 .punchline h4{
@@ -115,6 +116,7 @@ div #banner{
   position: relative;
   display: inline-block;
   z-index: 10;
+  margin-top: 5px;
 }
 
 /* Dropdown Content (Hidden by Default) */

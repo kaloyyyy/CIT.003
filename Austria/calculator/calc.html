@@ -1,0 +1,48 @@
+<!DOCTYPE hmtl>
+<html>
+	<head>
+		<title>HOME</title>
+		<!-- add icon link -->
+		<link rel="stylesheet" type="text/css" href="main.css">
+	<body>
+		<div class="calc">
+			<h1>MY CALCULATO</h1>
+			<input type="text" name="num1" id="num1" type="num1"><br><br>
+			<input type="text" name="num2" id="num2" type="num2">
+
+			<h1 id="answer"></h1>
+			<br>
+			<input id="button" type="sign" id="box1" value="add" onclick="return funcadd()"><br><br>
+			<input id="button" type="sign" id="box2" value="subtract" onclick="return funcsub()"><br><br>
+			<input id="button" type="sign" id="box3" value="multiply" onclick="return funcmult()"><br><br>
+			<input id="button" type="sign" id="box4" value="division" onclick="return funcdiv()">
+		</div>
+		<script>
+			function funcadd{
+			var x = document.getElementById('num1').value;
+			var y = document.getElementById('num2').value;
+			var z = 0;
+
+			document.getElementById('answer').innerHTML=(parseFloat(x)+parseFloat(y));
+			}
+			function funcsub{
+			var x = document.getElementById('num1').value;
+			var y = document.getElementById('num2').value;
+			document.getElementById('answer').innerHTML=(x-y);
+			}
+			function funcadd{
+			var x = document.getElementById('num1').value;
+			var y = document.getElementById('num2').value;
+
+			document.getElementById('answer').innerHTML=(x*y);
+			}
+			function funcadd{
+			var x = document.getElementById('num1').value;
+			var y = document.getElementById('num2').value;
+
+			document.getElementById('answer').innerHTML=(x/y);
+			}
+
+		</script>
+	</body>
+</html>

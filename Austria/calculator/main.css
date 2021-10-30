@@ -1,5 +1,6 @@
 body{
-    background: #099ade;
+    background: #282C34;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 .calc{
     width: 400px;
@@ -7,46 +8,43 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: #828287;
+    background: #6B859E;
     padding: 50px;
-    color: #ffffff;
+    color: #98c379;
     text-align: center;
 }
 
 .calc h1{
     text-transform: uppercase;
-    font-family: arial;
     margin-bottom: 10%;
 }
 
 input[type="text"]{
     height: 30px;
     font-size: 24px;
-    border-color: #fdb813;
+    border-color: #CB96FF;
 }
 
 input[type="sign"]{
     background: #ffbf00;
-    border: #c29610;
-    color: #ffffff;
+    border: black;
+    color: black;
     display: inline-block;
     padding: 10px 25px;
     font-size: 18px;
     text-transform: uppercase;
-    font-family: arial;
     letter-spacing: 2px;
     font-weight: bold;
 }
 
 input[id="button"]{
-    background: #ffbf00;
-    border: #c29610;
-    color: #ffffff;
+    background: #282C34;
+    border: #CB96FF;
+    color: #7DBEFF;
     display: inline-block;
     padding: 10px 25px;
     font-size: 18px;
     text-transform: uppercase;
-    font-family: arial;
     letter-spacing: 2px;
     font-weight: bold;
     text-align: center;

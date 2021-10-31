@@ -1,3 +1,19 @@
+body{
+  background: rgba(220, 180, 108, 1);
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: rgb(193,67,71);
+  margin: 0% 0%;
+  padding: 0px;
+}
+
+.punchline h4{
+  color: rgb(193,67,71);
+  margin: 0px;
+  padding: 0px;
+  font-size: 2em;
+  text-align: center;
+}
+
 .topicdiv{
   border: solid rgba(193,67,71,1) 3px;
   min-width: 70%;
@@ -8,5 +24,16 @@
   color: rgb(193,67,71);
   margin: 1% 15%;
   justify-content: space-evenly;
-  background-color: rgba(240,166,93,0.9);
+  background-color: rgb(33, 33, 33);
+}
+
+.topicdiv h2{
+  margin: 20px 10px 0px;
+  padding: 0px 30px 0px 150px;
+  text-align: center;
+}
+
+
+.topicdiv p{
+  font-size: 20px;
 }

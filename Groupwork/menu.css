@@ -2,10 +2,12 @@ body{
   background: rgba(220, 180, 108, 1);
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   color: rgb(193,67,71);
-  margin: 0% 15%;
+  margin: 0% 0%;
   padding: 0px;
 }
-
+.wholecontent{
+  margin: 0% 15%;
+}
 .punchline h4{
   color: rgb(193,67,71);
   margin: 0px;

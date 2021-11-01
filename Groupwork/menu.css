@@ -15,7 +15,8 @@ body{
 }
 .bodytext{
   text-align: center;
-  padding: 0% 10%;
+  padding: 0% 5%;
+  margin: 0% 1%;
 }
 
 .topicdiv{
@@ -27,11 +28,16 @@ body{
   overflow: auto;
   color: rgb(193,67,71);
   margin: 1% 15%;
-  justify-content: space-evenly;
+  justify-content:;
   background-color: rgb(33, 33, 33);
 }
+.topicdiv img{
+  position: relative;
+}
   
-
+.bodytext p{
+  text-align: left;
+}
 
 .topicdiv p{
   font-size: 20px;

@@ -2,7 +2,7 @@ body{
   background: rgba(220, 180, 108, 1);
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   color: rgb(193,67,71);
-  margin: 0% 0%;
+  margin: 0% 15%;
   padding: 0px;
 }
 
@@ -18,17 +18,20 @@ body{
   padding: 0% 5%;
   margin: 0% 1%;
 }
+.content{
+
+}
 
 .topicdiv{
   border: solid rgba(193,67,71,1) 3px;
-  min-width: 70%;
+  min-width: 90%;
+  max-width: 90%;
   border-radius: 10px;
   padding: 1% 2%;
   display: inline-flex;
   overflow: auto;
   color: rgb(193,67,71);
-  margin: 1% 15%;
-  justify-content:;
+  margin-bottom: 2%;
   background-color: rgb(33, 33, 33);
 }
 .topicdiv img{

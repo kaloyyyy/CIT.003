@@ -24,11 +24,15 @@
 <script>
 	function func1(){
 		var g = document.getElementById('gender').value;
-		var p
+		var p;
 		var x = document.getElementById('user').value;
-
-		
-		document.getElementById("txtmes").innerHTML = x + g;
+		if(g=="male"){
+			var p = "Mr.";
+		}
+		if(g=="female"){
+			var p = "Ms.";	
+		}
+		document.getElementById("txtmes").innerHTML = x + p;
 	}
 
 </script>

@@ -24,15 +24,14 @@
 <script>
 	function func1(){
 		var g = document.getElementById('gender').value;
-		var p;
-		var x = document.getElementById('user').value;
+		var name = document.getElementById('user').value;
 		if(g=="male"){
-			var p = "Mr.";
+			var pronoun = "Mr. ";
 		}
 		if(g=="female"){
-			var p = "Ms.";	
+			var pronoun = "Ms. ";	
 		}
-		document.getElementById("txtmes").innerHTML = x + p;
+		document.getElementById("txtmes").innerHTML = 'Hello '+pronoun + name +' ,welcome to this page. Have a good day ahead';
 	}
 
 </script>

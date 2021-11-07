@@ -5,25 +5,32 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-	<div class="wrapper">
-	input your full name:</br>
-	<input type="text" name="user" id="user" type="user"><br></input>
+	<div class="submit">
+		<div class="io">
+			<div class="input">
 
-	<label for="gender">Gender:</label>
-	<select id="gender" name="gender" id="gender">
-		<option id="male" value="male">male</option>
-		<option id="female" value="female">female</option>
-	</select>
-	<br>
-    input your message:<br>
-	<input type="text" name="message" id="message" type="message"><br></input>
+			input your full name:</br>
+			<input type="text" name="user" id="user" type="user" required minlength="3"><br></input>
+			<label for="gender">Gender:</label>
+			<select id="gender" name="gender" id="gender">
+				<option id="male" value="male">male</option>
+				<option id="female" value="female">female</option>
+			</select>
+			<br>
 
-	<button class="button" id="button" type="sign-in" id="box1" value="sign-in" onclick="return welcome()">Submit!</button>
+		    input your message:<br>
+			<input type="text" name="message" id="message" type="message"><br></input>
 
-<p id="welcometxt"></p>
-<p id="usermessage"></p>
-</div>
+			<button type="submit" id="button" onclick="return welcome()">Submit!</button>
+			</div>
+		<div class="output">
+			<p id="welcometxt"></p>
+			<p id="usermessage"></p>
+		</div>
+	</div>
+	</div>
 <script>
+
 	function welcome(){
 		var g = document.getElementById('gender').value;
 		var name = document.getElementById('user').value;
@@ -39,8 +46,6 @@
 		document.getElementById("welcometxt").innerHTML = 'Hello '+pronoun + name +' ,welcome to this page. Have a good day ahead';
 		message();
 	}
-
-
 	function message(){
 		var message = document.getElementById('message').value;
 		document.getElementById("usermessage").innerHTML = message;

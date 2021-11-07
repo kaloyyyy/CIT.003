@@ -34,8 +34,12 @@ input{
     border: solid black 1px;
 }
 input:invalid{
+    background: transparent;
     border: dashed red 1px;
 }
 input:invalid:focus{
     background-image: linear-gradient(pink,lightpink);
+}
+input:focus{
+    background: rgba(0, 255, 0, 0.1);
 }

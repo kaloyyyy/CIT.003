@@ -9,20 +9,22 @@
 	input your full name:</br>
 	<input type="text" name="user" id="user" type="user"><br></input>
 
-	<label for="cars">Gender:</label>
+	<label for="gender">Gender:</label>
 	<select id="gender" name="gender" id="gender">
 		<option id="male" value="male">male</option>
 		<option id="female" value="female">female</option>
 	</select>
 	<br>
+    input your message:<br>
+	<input type="text" name="message" id="message" type="message"><br></input>
 
+	<button class="button" id="button" type="sign-in" id="box1" value="sign-in" onclick="return welcome()">Submit!</button>
 
-	<button class="button" id="button" type="sign-in" id="box1" value="sign-in" onclick="return func1()">sign up!</button>
-
-<p id="txtmes"></p>
+<p id="welcometxt"></p>
+<p id="usermessage"></p>
 </div>
 <script>
-	function func1(){
+	function welcome(){
 		var g = document.getElementById('gender').value;
 		var name = document.getElementById('user').value;
 		if(g=="male"){
@@ -31,9 +33,18 @@
 		if(g=="female"){
 			var pronoun = "Ms. ";	
 		}
-		document.getElementById("txtmes").innerHTML = 'Hello '+pronoun + name +' ,welcome to this page. Have a good day ahead';
+		if (name==''){
+			var name = "Anonymous";
+		}
+		document.getElementById("welcometxt").innerHTML = 'Hello '+pronoun + name +' ,welcome to this page. Have a good day ahead';
+		message();
 	}
 
+
+	function message(){
+		var message = document.getElementById('message').value;
+		document.getElementById("usermessage").innerHTML = message;
+	}
 </script>
 </body>
 </html>

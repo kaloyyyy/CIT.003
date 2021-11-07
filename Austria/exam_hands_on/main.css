@@ -1,0 +1,8 @@
+.wrapper h1{
+    text-transform: uppercase;
+    font-family: arial;
+    margin-bottom: 10%;
+    border: solid black 2px;
+    max-width: 20%;
+    min-height: 5em;
+}

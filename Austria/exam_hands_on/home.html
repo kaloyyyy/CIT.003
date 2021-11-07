@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>yes</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="wrapper">
+	input your full name:</br>
+	<input type="text" name="user" id="user" type="user"><br></input>
+
+	<label for="cars">Gender:</label>
+	<select name="gender" id="gender">
+		<option value="male">male</option>
+		<option value="female">female</option>
+	</select>
+	<br>
+
+
+	<button class="button" id="button" type="sign-in" id="box1" value="sign-in" onclick="return func1()">sign up!</button>
+
+<p id="txtmes"></p>
+</div>
+<script>
+	function func1(){
+		var x = document.getElementById('user').value;
+		document.getElementById("txtmes").innerHTML = x;
+	}
+
+</script>
+</body>
+</html>

@@ -1,3 +1,8 @@
+body{
+    background: gray;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: white;
+}
 .wrapper h1{
     text-transform: uppercase;
     font-family: arial;
@@ -12,11 +17,17 @@ body{
     justify-content: center;
     margin: 1% 20%;
 }
-
+textarea.input-box, textarea { 
+    background: dimgray; 
+    border: solid black 2px;
+    border-radius: 4px;
+    color: white;
+}
 
 .submit{
     display: flex;
-    border: solid black 1px;
+    border: solid black 2px;
+    border-radius: 4px;
     min-width: 90%;
     max-width: 90%;
     padding:2%; 
@@ -51,10 +62,12 @@ body{
 input{
     border: solid black 2px;
     border-radius: 4px;
+    background: dimgray;
+    color: white;
 }
 input:invalid{
     background: transparent;
-    border: dashed red 2px;
+    border: solid red 2px;
 }
 input:invalid:focus{
     background-image: linear-gradient(pink,lightpink);

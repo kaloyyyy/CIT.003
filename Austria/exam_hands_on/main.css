@@ -1,7 +1,7 @@
 body{
-    background: gray;
+    background: #282C34;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    color: white;
+    color: #3890E9;
 }
 .wrapper h1{
     text-transform: uppercase;
@@ -17,61 +17,91 @@ body{
     justify-content: center;
     margin: 1% 20%;
 }
+textarea.input-box:invalid, textarea:invalid{
+    border: solid #FF9191 2px;
+}
 textarea.input-box, textarea { 
-    background: dimgray; 
-    border: solid black 2px;
+    background: #1A2128; 
+    border: solid #9ACD68 2px;
     border-radius: 4px;
     color: white;
 }
 
+div.remind{
+    color: #FF9191;
+    font-size: 0.8em;
+    font-style: italic;
+    margin-bottom: 2%;
+}
 .submit{
     display: flex;
-    border: solid black 2px;
-    border-radius: 4px;
+    border: solid #CB96FF 2px;
+    border-radius: 8px;
     min-width: 90%;
     max-width: 90%;
-    padding:2%; 
+    padding:0.5% 2%; 
     overflow: auto;
 }
 .name{
-    width: 100%;
+    width: 50%;
 }
 
 .message{
-      width: 100%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  resize: none;
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #CB96FF;
+    border-radius: 4px;
+    resize: none;
+}
+select{
+    border-radius: 4px;
+    background: #1A2128;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: white;
+    padding: 3px;
+    border-color: #9ACD68;
+}
+#button{
+    border-radius: 4px;
+    margin-bottom: 2%;
+    background: #1A2128;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: white;
+    padding: 3px;
+    border-color: #9ACD68;
 }
 .io{
     width: 100%;
+    margin: 2% 2%;
 }
 .output{
     padding: 1% 2%;
     width: auto;
-    border: solid black 2px;
+    border: solid #EDA55D 2px;
     border-radius: 4px;
 }
 .input{
     margin: 0% 0%;
 }
 input{
-    border: solid black 2px;
+    padding: 1%;
+    border: solid #9ACD68 2px;
     border-radius: 4px;
-    background: dimgray;
+    background: #1A2128;
     color: white;
 }
 input:invalid{
-    background: transparent;
-    border: solid red 2px;
+    border: solid #FF9191 2px;
+    border-radius: 4px;
 }
 input:invalid:focus{
-    background-image: linear-gradient(pink,lightpink);
+    border: solid #FF9191 2px;
+    background: #FF9191;
+    border-radius: 4px;
 }
 input:focus{
-    background: rgba(0, 255, 0, 0.1);
+    border: solid #9ACD68 2px;
+    border-radius: 4px;
 }

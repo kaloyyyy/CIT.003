@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>yes</title>
+	<title>Registration Form</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
@@ -10,19 +10,21 @@
 			<div class="input">
 
 			input your full name:</br>
-			<input type="text" name="user" id="user" type="user" class="name" required minlength="3"></input><br>
+			<input type="text" name="user" id="user" type="user" class="name" required minlength="3" autocomplete="off"></input><br>
+			<div class="remind">name must be three(3) characters long</div>
 			<label for="gender">Gender:</label>
 			<select id="gender" name="gender" id="gender">
 				<option id="male" value="male">male</option>
 				<option id="female" value="female">female</option>
 			</select>
-			<br>
+			<div class="remind">please select a gender</div>
 
 		    input your message:<br>
-			<textarea type="text" name="message" id="message" type="message" class="message input-box"></textarea>
-
+			<textarea type="text" name="message" id="message" type="message" class="message input-box" required minlength="5"></textarea>
+			<div class="remind">Message must be at least five(5) characters long</div>
 			<button type="submit" id="button" onclick="return welcome()">Submit!</button>
 			</div>
+			<p>Message: </p>
 		<div class="output">
 			<p id="welcometxt"></p>
 			<p id="usermessage"></p>

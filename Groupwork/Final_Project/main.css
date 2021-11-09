@@ -11,148 +11,15 @@ a{
   color: rgb(251, 199, 100 );
   margin-bottom: 5%;
 }
-/*end of general css*/
-.punchline h4{
-  color: rgb(251, 199, 100);
-  margin: 0px;
-  padding: 0px;
-  font-size: 1.05em;
-}
-.currentPage{
-  border: none  rgb(251, 199, 100) 4px;
-  border-bottom-style: solid;
-}
-div #banner{
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-}
-#banner img{
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  max-height: auto;
-  object-fit: cover;
-}
-.banner div{
-  margin: 0%;
-}
-#logo img{
-  display: flex;
-  left: 0;
-  right: 0;
-  margin-right: auto;
-  margin-left: auto;
-  position: absolute;
-  top: 3%;
-  width: auto;
-  max-width: 12%;
-  max-height: auto;
-  height: auto;
-}
-.header {
-  background: rgba(193,67,71,1);  
-  text-align: center;
-}
-.sticky{
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.sticky + .content {
-  padding-top: 2%;
-}
-.navbar{
-  position: sticky;
-  display: flex;
-  justify-content: space-between;
-  margin: 0% 25%; 
-  z-index: 10;
-}
-#navbar{
-  z-index: 10;
-  background: rgba(193,67,71,1);  
-  margin: 0% 0%;
-}
 
-.diRaw{
-  border: solid rgba(193,67,71,1) 3px;
-  min-width: 70%;
-  border-radius: 10px;
-  padding: 1% 2%;
-  display: inline-flex;
-  overflow: auto;
-  color: rgb(193,67,71);
-  margin: 1% 15%;
-  justify-content: space-evenly;
-  background-color: rgba(240,166,93,0.9);
-}
+
+
 .history{
   padding-top: 1%;
   width: 60%;
   margin-left: 5%;
 }
 
-
-
-/* Dropdown Button */
-.dropbtn {
-  background-color: rgb(193,67,71);
-  padding: 0px;
-  font-size: 1.1em;
-  border: none;
-  z-index: 10;
-}
-.dropdown a{
-  text-decoration: none;
-  color: rgb(251, 199, 100);
-}
-.dropdown a:hover{
-  color: rgba(251, 199, 100,1);
-
-}
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  z-index: 10;
-  margin-top: 5px;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  text-align: left;
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 60%;
-  max-width: 120%;
-  padding: 1%;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 9;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  font-size: 18px;
-  padding: 1%;
-  text-decoration: none;
-  display: block;
-  z-index: 10;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: white;   z-index: 10;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;  z-index: 10;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: rgba(255,255,255,0.2);
-  z-index: 10;
-}
 .slideshow{
   left: 0px;
   padding-top: 20px;
@@ -264,102 +131,16 @@ div #banner{
 }
 
 
-/*footer part*/
-.footer{
-  display:flex;
-  justify-content: space-evenly; 
-  z-index: 10;
-}
-#footer{
-  z-index: 10;
-  background: rgba(86,59,66,1);  
-  margin: 0% 20%;
-}
-#foot{
-  padding: 0.5% 0%;
-  margin: 0% 0%;
-  z-index: 10;
-  background: rgba(86,59,66,1); 
-}
 
-/* Dropdown Button */
-.dropbtn .footer{
-  background-color: rgb(86,59,66);
-  font-size: 1.2em;
-  border: none;
-  z-index: 10;
-}
-.dropdown .footer a{
-  font-size: 1em;
-  text-decoration: none;
-  color: rgb(193,67,71);
-}
-/* The container <div> - needed to position the dropdown content */
-.dropdown .footer{
-  position: relative;
+.diRaw{
+  border: solid rgba(193,67,71,1) 3px;
+  min-width: 70%;
+  border-radius: 10px;
+  padding: 1% 2%;
   display: inline-flex;
-  z-index: 10;
-  height: auto;
-}
-.footer .dropdown .dropbtn {
-  height: 20%;
-  margin-top: 2.5em;
-  background: rgba(86,59,66,1);
-  text-decoration: none;
-  z-index: 10;
-}
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content .footer{
-  text-align: left;
-  display: none;
-  position: absolute;
-  min-width: 60%;
-  max-width: 120%;
-  padding: 1%;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 9;
-}
-
-/* Links inside the dropdown */
-.dropdown-content .footer a {
-  color: black;
-  font-size: 18px;
-  padding: 1%;
-  display: inline-block;
-  z-index: 10;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content .footer a:hover {
-  background-color: rgba(86,59,66, 0.1);   
-  z-index: 10;
-  height: 10;
-    -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .footer .dropdown-content {display: block;  z-index: 10;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.footer .dropdown:hover .dropbtn {
-  background-color: rgba(251, 199, 100,0.8);
-  text-decoration: underline;
-  z-index: 10;
-  animation-name: transition;
-  animation-duration: 1s;
-}
-.logofooter{
-  width: 50%;
-  border-radius: 50%;
-}
-.dropbtnlogo{
-  background-color: rgb(86,59,66);
-  border-width: 0px;
-}
-@keyframes transition {
-  from {background-color: rgba(86,59,66,1);}
-  to {background-color: rgba(251, 199, 100,0.8);}
+  overflow: auto;
+  color: rgb(193,67,71);
+  margin: 1% 15%;
+  justify-content: space-evenly;
+  background-color: rgba(240,166,93,0.9);
 }

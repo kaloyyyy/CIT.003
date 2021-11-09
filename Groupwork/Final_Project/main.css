@@ -11,69 +11,12 @@ a{
   color: rgb(251, 199, 100 );
   margin-bottom: 5%;
 }
+#pagetag{
+  display: none;
+}
 /*end of general css*/
-.punchline h4{
-  color: rgb(251, 199, 100);
-  margin: 0px;
-  padding: 0px;
-  font-size: 1.05em;
-}
-.currentPage{
-  border: none  rgb(251, 199, 100) 4px;
-  border-bottom-style: solid;
-}
-div #banner{
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-}
-#banner img{
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  max-height: auto;
-  object-fit: cover;
-}
-.banner div{
-  margin: 0%;
-}
-#logo img{
-  display: flex;
-  left: 0;
-  right: 0;
-  margin-right: auto;
-  margin-left: auto;
-  position: absolute;
-  top: 3%;
-  width: auto;
-  max-width: 12%;
-  max-height: auto;
-  height: auto;
-}
-.header {
-  background: rgba(193,67,71,1);  
-  text-align: center;
-}
-.sticky{
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.sticky + .content {
-  padding-top: 2%;
-}
-.navbar{
-  position: sticky;
-  display: flex;
-  justify-content: space-between;
-  margin: 0% 25%; 
-  z-index: 10;
-}
-#navbar{
-  z-index: 10;
-  background: rgba(193,67,71,1);  
-  margin: 0% 0%;
-}
+
+
 
 .diRaw{
   border: solid rgba(193,67,71,1) 3px;

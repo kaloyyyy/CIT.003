@@ -1,7 +1,7 @@
 document.write('\
 <link rel="stylesheet" type="text/css" href="headerfooter.css">\
 <div id="hd">\
-<div class="header">\
+<div class="header" id="header">\
 			<center id="hdr">\
 				<div class="punchline"><h4>Di raw masyandong masarap pero pwede na!</h4></div>\
 			<div class="banner">\
@@ -19,7 +19,7 @@ document.write('\
 					</button>\
 				</div>\
 				<div class="dropdown"><button class="dropbtn">\
-					<a href="menu.html" class="currentPage">I\'m hungry!</a></button>\
+					<a href="menu.html">I\'m hungry!</a></button>\
 					<div class="dropdown-content">\
 					</div>\
 				</div>\
@@ -45,28 +45,42 @@ document.write('\
 		</div>	\
 		<center>\
 		</div>\
+		<div id="placeholder" style height="0" ></div>\
 ');
-	window.onscroll = function() {myFunction()};
-
-	// Get the navbar
-	var divHeight;
-var obj = document.getElementById('banner');
+window.onscroll = function() {myFunction()};
+var divHeight;
+var obj = document.getElementById('navbar');
 
 if(obj.offsetHeight) {
     divHeight=obj.offsetHeight;
-
 } else if(obj.style.pixelHeight) {
     divHeight=obj.style.pixelHeight;
-
 }
-	// Get the offset position of the navbar
-	var navbar = document.getElementById("navbar");
-	var sticky = navbar.offsetTop;
-	// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-	function myFunction() {
-	  if (window.pageYOffset >= sticky) {
-	    navbar.classList.add("sticky")
-	  } else {
-	    navbar.classList.remove("sticky");
-	  }
+
+var placeholder = document.getElementById("placeholder");
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+	if (window.pageYOffset >= sticky) {
+	    navbar.classList.add("sticky");
+	document.getElementById('placeholder').style.height = divHeight;
+	} else {
+		navbar.classList.remove("sticky");
+	    document.getElementById('placeholder').style.height = 0;
 	}
+}
+var node = document.getElementById('pagetag');
+var text = node.innerHTML;
+document.write(text);
+
+var headHeight;
+var headObj = document.getElementById('banner');
+
+if(headObj.offsetHeight){
+	headHeight=obj.offsetHeight;
+}else if(headObj.style.pixelHeight){
+	headHeight=headObj.style.pixelHeight;
+}
+
+document.write(headHeight);

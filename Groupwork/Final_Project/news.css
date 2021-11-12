@@ -1,0 +1,50 @@
+body{
+  background: rgba(220, 180, 108, 1);
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: rgb(193,67,71);
+  margin: 0% 0%;
+  padding: 0px;
+}
+.wholecontent{
+  margin: 0% 15%;
+}
+.punchline h3{
+  color: rgb(193,67,71);
+  margin: 0px;
+  padding: 0px;
+  font-size: 2em;
+  text-align: center;
+}
+.bodytext{
+  text-align: center;
+  padding: 0% 1%;
+  margin: 0% 5%;
+}
+.content{
+
+}
+
+.topicdiv{
+  border: solid rgba(193,67,71,1) 3px;
+  min-width: 90%;
+  max-width: 90%;
+  border-radius: 10px;
+  padding: 1% 2%;
+  display: inline-flex;
+  overflow: auto;
+  color: rgb(193,67,71);
+  margin-bottom: 2%;
+  background-color: rgb(33, 33, 33);
+}
+.topicdiv img{
+  position: relative;
+  padding-left: 5%;
+}
+  
+.bodytext p{
+  text-align: left;
+}
+
+.topicdiv p{
+  font-size: 20px;
+}

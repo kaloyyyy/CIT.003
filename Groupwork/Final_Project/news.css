@@ -26,8 +26,8 @@ body{
 
 .topicdiv{
   border: solid rgba(193,67,71,1) 3px;
-  min-width: 90%;
-  max-width: 90%;
+  min-width: 65%;
+  max-width: 65%;
   border-radius: 10px;
   padding: 1% 2%;
   display: inline-flex;
@@ -42,7 +42,7 @@ body{
 }
   
 .bodytext p{
-  text-align: left;
+  text-align: justify;
 }
 
 .topicdiv p{

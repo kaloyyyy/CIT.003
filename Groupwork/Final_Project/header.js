@@ -7,7 +7,6 @@ document.write('\
 				<div id="logo"><a href="HomePage.html" class="home"><img src="logo_banner_3.png"></a></img>\
 				</div>\
 			</div>\
-			</center>\
 		</div>\
 		<div id="navbar">\
 			<div class="navbar">\
@@ -47,21 +46,19 @@ document.write('\
 					</div>\
 				</div>\
 			</div>\
-		</div>	\
-		<center>\
-		\
-		<div id="placeholder" style height="0" ></div>\
+		</div><br>\
+		<div id="placeholder"></div>\	\
+		</center>\
 ');
 window.onscroll = function() {myFunction()};
 var divHeight;
 var obj = document.getElementById('navbar');
-
 if(obj.offsetHeight) {
     divHeight=obj.offsetHeight;
+
 } else if(obj.style.pixelHeight) {
     divHeight=obj.style.pixelHeight;
-}
-
+ }
 var placeholder = document.getElementById("placeholder");
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
@@ -69,13 +66,12 @@ var sticky = navbar.offsetTop;
 function myFunction() {
 	if (window.pageYOffset >= sticky) {
 	    navbar.classList.add("sticky");
-	document.getElementById('placeholder').style.height = divHeight;
+		document.getElementById('placeholder').style.height = divHeight;
 	} else {
 		navbar.classList.remove("sticky");
 	    document.getElementById('placeholder').style.height = 0;
 	}
 }
-
 
 var node = document.getElementById('pagetag');
 var text = node.innerHTML;
@@ -94,5 +90,6 @@ if(text=="about"){
 }
 
 function bordercurr(){
-	document.getElementById(text).style.borderBottom = "5px solid rgb(0,255,0)";
+	document.getElementById(text).style.borderBottom = "5px solid green";
 }
+

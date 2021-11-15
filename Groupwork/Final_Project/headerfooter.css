@@ -32,9 +32,7 @@
   max-height: 175px;
   height: auto;
 }
-#placeholder{
-  height: 0;
-}
+
 .sticky{
   position: fixed;
   top: 0;
@@ -55,6 +53,7 @@
   z-index: 10;
   background: rgba(193,67,71,1);  
   margin: 0% 0%;
+  height: 34px;
 }
 
 

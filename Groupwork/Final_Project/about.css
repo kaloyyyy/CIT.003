@@ -4,7 +4,7 @@ h1{
 }
 
 h2{
-  font-family: bebas neue, monsterat;
+  font-family: meriyo;
   /*note to self to edit this and choose 2 fonts*/
   font-size: 18px;
 }
@@ -14,12 +14,13 @@ h2{
   min-width: 70%;
   border-radius: 10px;
   padding: 1% 2%;
-  display: inline-flex;
   overflow: auto;
   color: rgb(193,67,71);
   margin: 1% 15%;
+  display: inline-flex;
   justify-content: space-evenly;
   background-color: rgba(243, 188, 134, 0.9);
+  font-family: meiryo;
 }
 
 .topicdiv1{
@@ -30,20 +31,23 @@ h2{
   min-width: 70%;
   border-radius: 10px;
   padding: 10px;
+  display: inline-block;
   justify-content: space-evenly;
   background-color: #282C34;
 }
 
 .about2bodytext{
-  width: 355px;
+  width: 310px;
   height: 600px;
   border: solid rgba(193,67,71,1) 3px;
   background-color: ; /*note to self*/
   float: left;
   padding: 1% 2%;
-  margin: 5px;
+  margin: 8px;
   font-size: 13px;
   text-align: justify;
+  display: inline-block;
+  justify-content: center;
 }
 
 img{

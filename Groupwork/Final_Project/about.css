@@ -36,10 +36,15 @@ h2{
   background-color: #282C34;
 }
 
+.endorsers{
+  display: flex;
+  justify-content: space-evenly;
+}
 .about2bodytext{
   width: 310px;
   height: 600px;
   border: solid rgba(193,67,71,1) 3px;
+  border-radius: 4px;
   background-color: ; /*note to self*/
   float: left;
   padding: 1% 2%;

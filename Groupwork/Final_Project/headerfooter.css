@@ -5,25 +5,17 @@
   padding: 0px;
   font-size: 1.05em;
 }
-.currentPage{
-  border: none  rgb(251, 199, 100) 4px;
-  border-bottom-style: solid;
-}
-div #banner{
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-}
+
+
 #banner img{
   width: 100%;
-  height: auto;
+  height: 150px;
   max-width: 100%;
   max-height: auto;
   object-fit: cover;
 }
-.banner div{
-  margin: 0%;
-}
+
+
 #logo img{
   display: flex;
   left: 0;
@@ -31,19 +23,22 @@ div #banner{
   margin-right: auto;
   margin-left: auto;
   position: absolute;
-  top: 20px;
-  width: auto;
-  max-width: 12%;
-  max-height: auto;
-  height: auto;
+  top: 25px;
+  width: 200px;
 }
 .header {
   background: rgba(193,67,71,1);  
   text-align: center;
+  max-height: 175px;
+  height: auto;
+}
+#placeholder{
+  height: 0;
 }
 .sticky{
   position: fixed;
   top: 0;
+  margin-bottom: 20px;
   width: 100%;
 }
 .sticky + .content {
@@ -60,7 +55,6 @@ div #banner{
   z-index: 10;
   background: rgba(193,67,71,1);  
   margin: 0% 0%;
-  height: 3.5%;
 }
 
 

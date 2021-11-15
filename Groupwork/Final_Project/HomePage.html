@@ -10,49 +10,8 @@
 		<meta http-equiv="refresh" content="10000"><!--auto refreshes page for check lmao, delete before submitting-->
 	</head>
 
-	<body>
-		<div class="header">
-			<center>
-				<div class="punchline"><h4>Di raw masyandong masarap pero pwede na!</h4></div>
-			<div class="banner">
-				<div id="banner"><img src="Background2.png"></img></div>
-				<div id="logo"><a href="HomePage.html" class="home"><img src="logo_banner_3.png"></a></img>
-				</div>
-			</div>
-			</center>
-		</div>
-		<div id="navbar">
-			<div class="navbar">
-				<div class="dropdown">
-					<button class="dropbtn">
-					<div class="currentPage"><a href="HomePage.html">Home</a></div>
-					</button>
-				</div>
-				<div class="dropdown"><button class="dropbtn">
-					<a href="menu.html">I'm hungry!</a></button>
-					<div class="dropdown-content">
-					</div>
-				</div>
-						
-				<div class="dropdown">
-					<button class="dropbtn"><a href="news.html">News and Blogs</a></button>
-					<div class="dropdown-content">
-					</div>
-					</div>
-				
-				<div class="dropdown">
-					<button class="dropbtn"><a href="about.html">About us</a></button>
-					<div class="dropdown-content">
-					</div>
-					</div>
-				
-				<div class="dropdown">
-					<button class="dropbtn"><a href="yes.html">Now Hiring</a></button>
-					<div class="dropdown-content">
-					</div>
-				</div>
-			</div>		
-		</div>
+	<body><div id="pagetag">home</div>
+		<script src="header.js"></script>
 		<div class="content">
 			<div class="diRaw">
 				<div class="slideshow">
@@ -97,77 +56,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="foot">
-		<div id="footer">
-			<div class="footer">
-				<div class="dropdown footer">
-					<button class="dropbtn footer"><a href="new.html">News and Blogs</a></button>
-				</div>
-				<div class="dropdown footer">
-					<button class="dropbtn footer"><a href="menu.html">Menu</a></button>
-				</div>
-				<div class="dropdownlogo">
-					<button class="dropbtnlogo"><a href="HomePage.html"><img src="LogoRevised.png" class="logofooter"></a></button>
-				</div>
-				<div class="dropdown footer">
-					<button class="dropbtn footer"><a href="yes.html">social media</a></button>
-				</div>
-				<div class="dropdown footer">
-					<button class="dropbtn footer"><a href="about.html">about</a></button>
-				</div>
-			</div>			
-		</div>
-		</div>
-<script>// When the user scrolls the page, execute myFunction
-	window.onscroll = function() {myFunction()};
-
-	// Get the navbar
-	var navbar = document.getElementById("navbar");
-
-	// Get the offset position of the navbar
-	var sticky = navbar.offsetTop;
-
-	// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-	function myFunction() {
-	  if (window.pageYOffset >= sticky) {
-	    navbar.classList.add("sticky")
-	  } else {
-	    navbar.classList.remove("sticky");
-	  }
-	}
-	var slideIndex = 0;
-	showSlides(slideIndex);
-	add();
-		function add(n){
-			slideIndex++;
-			showSlides(slideIndex);
-			setTimeout(add,5000);
-		}
-	// Next/previous controls
-		function plusSlides(n) {
-			showSlides(slideIndex += n);
-		}
-
-		// Thumbnail image controls
-		function currentSlide(n) {
-			showSlides(slideIndex = n);
-		}
-	function showSlides(n) {
-		var i;
-		var slides = document.getElementsByClassName("mySlides");
-		var dots = document.getElementsByClassName("dot");
-		if (n > slides.length) {slideIndex = 1}    
-		if (n < 1) {slideIndex = slides.length}
-		
-		for (i = 0; i < slides.length; i++) {
-		slides[i].style.display = "none";  
-		}
-		for (i = 0; i < dots.length; i++) {
-		dots[i].className = dots[i].className.replace(" active", "");
-		}
-		slides[slideIndex-1].style.display = "block";  
-		dots[slideIndex-1].className += " active";
-	}
-</script>
+		<script src="footer.js"></script>
+		<script src="slideshow.js"></script>
 	</body>
 </html>

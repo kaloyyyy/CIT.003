@@ -1,0 +1,98 @@
+document.write('\
+<div class="header" id="header">\
+			<center id="hdr">\
+				<div class="punchline"><h4>Di raw masyandong masarap pero pwede na!</h4></div>\
+			<div class="banner">\
+				<div id="banner"><img src="Background2.png"></img></div>\
+				<div id="logo"><a href="HomePage.html" class="home"><img src="logo_banner_3.png"></a></img>\
+				</div>\
+			</div>\
+			</center>\
+		</div>\
+		<div id="navbar">\
+			<div class="navbar">\
+				<div class="dropdown">\
+					<button class="dropbtn">\
+					<div id="home"><a href="HomePage.html">Home</a></div>\
+					</button>\
+				</div>\
+				<div class="dropdown"><button class="dropbtn">\
+					<div id="menu"><a href="menu.html">I\'m hungry!</a></div>\
+					</button>\
+					<div class="dropdown-content">\
+					</div>\
+				</div>\
+						\
+				<div class="dropdown">\
+					<button class="dropbtn">\
+					<div id="news"><a href="news.html">News and Blogs</a></div>\
+					</button>\
+					<div class="dropdown-content">\
+					</div>\
+					</div>\
+				\
+				<div class="dropdown">\
+					<button class="dropbtn">\
+					<div id="about"><a href="about.html">About us</a></div>\
+					</button>\
+					<div class="dropdown-content">\
+					</div>\
+					</div>\
+				\
+				<div class="dropdown">\
+					<button class="dropbtn">\
+					<div id="hire"><a href="yes.html">Now Hiring</a></div>\
+					</button>\
+					<div class="dropdown-content">\
+					</div>\
+				</div>\
+			</div>\
+		</div>	\
+		<center>\
+		\
+		<div id="placeholder" style height="0" ></div>\
+');
+window.onscroll = function() {myFunction()};
+var divHeight;
+var obj = document.getElementById('navbar');
+
+if(obj.offsetHeight) {
+    divHeight=obj.offsetHeight;
+} else if(obj.style.pixelHeight) {
+    divHeight=obj.style.pixelHeight;
+}
+
+var placeholder = document.getElementById("placeholder");
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+	if (window.pageYOffset >= sticky) {
+	    navbar.classList.add("sticky");
+	document.getElementById('placeholder').style.height = divHeight;
+	} else {
+		navbar.classList.remove("sticky");
+	    document.getElementById('placeholder').style.height = 0;
+	}
+}
+
+
+var node = document.getElementById('pagetag');
+var text = node.innerHTML;
+
+if(text=="home"){
+	bordercurr();
+}
+if(text=="menu"){
+	bordercurr();
+}
+if(text=="news"){
+	bordercurr();
+}
+if(text=="about"){
+	bordercurr();
+}
+
+function bordercurr(){
+	document.getElementById(text).style.borderBottom = "5px solid rgb(0,255,0)";
+}

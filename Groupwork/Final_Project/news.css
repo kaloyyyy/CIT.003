@@ -1,10 +1,4 @@
-body{
-  background: rgba(220, 180, 108, 1);
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-  color: rgb(193,67,71);
-  margin: 0% 0%;
-  padding: 0px;
-}
+
 .wholecontent{
   margin: 0% 15%;
 }
@@ -20,9 +14,7 @@ body{
   padding: 0% 1%;
   margin: 0% 5%;
 }
-.content{
 
-}
 
 .topicdiv{
   border: solid rgba(193,67,71,1) 3px;

@@ -5,11 +5,7 @@
   padding: 0px;
   font-size: 1.05em;
 }
-div #banner{
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-}
+
 
 #banner img{
   width: 100%;
@@ -19,9 +15,7 @@ div #banner{
   object-fit: cover;
 }
 
-.banner div{
-  margin: 0%;
-}
+
 #logo img{
   display: flex;
   left: 0;
@@ -35,6 +29,8 @@ div #banner{
 .header {
   background: rgba(193,67,71,1);  
   text-align: center;
+  max-height: 175px;
+  height: auto;
 }
 #placeholder{
   height: 0;

@@ -1,5 +1,4 @@
 document.write('\
-<link rel="stylesheet" type="text/css" href="headerfooter.css">\
 <div id="hd">\
 <div class="header" id="header">\
 			<center id="hdr">\
@@ -15,29 +14,36 @@ document.write('\
 			<div class="navbar">\
 				<div class="dropdown">\
 					<button class="dropbtn">\
-					<div><a href="HomePage.html">Home</a></div>\
+					<div id="home"><a href="HomePage.html">Home</a></div>\
 					</button>\
 				</div>\
 				<div class="dropdown"><button class="dropbtn">\
-					<a href="menu.html">I\'m hungry!</a></button>\
+					<div id="menu"><a href="menu.html">I\'m hungry!</a></div>\
+					</button>\
 					<div class="dropdown-content">\
 					</div>\
 				</div>\
 						\
 				<div class="dropdown">\
-					<button class="dropbtn"><a href="news.html">News and Blogs</a></button>\
+					<button class="dropbtn">\
+					<div id="news"><a href="news.html">News and Blogs</a></div>\
+					</button>\
 					<div class="dropdown-content">\
 					</div>\
 					</div>\
 				\
 				<div class="dropdown">\
-					<button class="dropbtn"><a href="about.html">About us</a></button>\
+					<button class="dropbtn">\
+					<div id="about"><a href="about.html">About us</a></div>\
+					</button>\
 					<div class="dropdown-content">\
 					</div>\
 					</div>\
 				\
 				<div class="dropdown">\
-					<button class="dropbtn"><a href="yes.html">Now Hiring</a></button>\
+					<button class="dropbtn">\
+					<div id="hire"><a href="yes.html">Now Hiring</a></div>\
+					</button>\
 					<div class="dropdown-content">\
 					</div>\
 				</div>\
@@ -70,17 +76,24 @@ function myFunction() {
 	    document.getElementById('placeholder').style.height = 0;
 	}
 }
+
+
 var node = document.getElementById('pagetag');
 var text = node.innerHTML;
-document.write(text);
 
-var headHeight;
-var headObj = document.getElementById('banner');
-
-if(headObj.offsetHeight){
-	headHeight=obj.offsetHeight;
-}else if(headObj.style.pixelHeight){
-	headHeight=headObj.style.pixelHeight;
+if(text=="home"){
+	bordercurr();
+}
+if(text=="menu"){
+	bordercurr();
+}
+if(text=="news"){
+	bordercurr();
+}
+if(text=="about"){
+	bordercurr();
 }
 
-document.write(headHeight);
+function bordercurr(){
+	document.getElementById(text).style.borderBottom = "5px solid black";
+}

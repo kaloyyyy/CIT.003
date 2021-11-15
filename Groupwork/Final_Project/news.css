@@ -50,14 +50,25 @@ body{
 
 .topicdiv2{
   border: solid rgba(193,67,71,1) 3px;
+<<<<<<< Updated upstream
   max-width: 50%;
+=======
+  border-width: 100%;
+  width: 70%;
+>>>>>>> Stashed changes
   border-radius: 10px;
   padding: 1% 2%;
-  display: inline-flex;
   overflow: auto;
   color: rgb(193,67,71);
+<<<<<<< Updated upstream
   margin: 0%;
+=======
+  margin: 1% 15%;
+  display: inline-flex;
+  justify-content: space-evenly;
+>>>>>>> Stashed changes
   background-color: rgba(243, 188, 134, 0.9);
+  font-family: meiryo;
 }
 
 .topicdiv2 h2{
@@ -96,3 +107,20 @@ body{
   font-size: 17px;
 }
 
+
+
+
+
+
+/* <div class="wholecontent">
+      <center>
+      <div class="lines">
+      <div class="punchline"><h3>ULING NEWS</h3></div>
+    </div>
+      <div class="content"><!--class content basically the body-->
+        <div class="topicdiv2">
+        <insert image here>
+        <div class="about1menutext">
+          <h2>Are you up to date with the current news about Uling Roasters and more? Here are some news and blogs for our ka-roasters for you to be updated!<br><br> Sumobra sa balita, pasenysa na!</h2>
+        </div>
+      </div>*/

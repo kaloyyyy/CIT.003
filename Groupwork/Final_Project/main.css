@@ -1,10 +1,11 @@
 body{
   /*background: rgba(220, 180, 108, 1);*/
-  background-image: url('bb.png');
+  /*background-image: url('bb.png');
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center;*/
+  background: rgb(68,68,68);
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   color: rgb(193,67,71);
   margin: 0% 0%;

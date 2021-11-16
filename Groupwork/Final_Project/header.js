@@ -40,7 +40,7 @@ document.write('\
 				\
 				<div class="dropdown">\
 					<button class="dropbtn">\
-					<div id="hire"><a href="yes.html">Now Hiring</a></div>\
+					<div id="hire"><a href="hire.html">Now Hiring</a></div>\
 					</button>\
 					<div class="dropdown-content">\
 					</div>\

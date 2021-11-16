@@ -48,8 +48,9 @@
   margin: 1% 20%;
 }
 .topicdiv img{
-  position: relative;
-  padding-left: 5%;
+  width: 100%;
+  height: auto;
+  padding: 0% 2%;
 }
   
 .bodytext p{

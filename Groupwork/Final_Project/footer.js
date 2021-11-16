@@ -4,10 +4,10 @@ document.write(`\
 		<div id="footer">\
 			<div class="footer">\
 				<div class="dropdown footer">\
-					<button class="dropbtn footer"><a href="new.html">News and Blogs</a></button>\
+					<button class="dropbtn footer"><a href="mailto:190041@adzu.edu.ph">contact</a></button>\
 				</div>\
 				<div class="dropdown footer">\
-					<button class="dropbtn footer"><a href="menu.html">Menu</a></button>\
+					<button class="dropbtn footer"><a href="https://github.com/kaloyyyy">github</a></button>\
 				</div>\
 				<div class="dropdownlogo">\
 					<button class="dropbtnlogo"><a href="HomePage.html"><img src="LogoRevised.png" class="logofooter"></a></button>\

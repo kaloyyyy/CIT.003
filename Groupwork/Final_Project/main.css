@@ -9,10 +9,7 @@ body{
 }
 a{
   font-family: "Helvetica", sans-serif;
-  text-decoration: none;
   font-size: 18px;
-  color: rgba(251, 199, 100, 1.0);
-  margin-bottom: 5%;
 }
 #pagetag{
   display: none;
@@ -28,6 +25,41 @@ a{
   width: 60%;
   margin-left: 5%;
 }
+
+.punchline h3{
+  color: rgb(193,67,71);
+  margin: 0px;
+  padding: 0px;
+  font-size: 2em;
+  text-align: center;
+  position: relative;
+}
+
+.lines{
+  width: 100%;
+  height: 45px;
+  position: relative;
+
+}
+.lines::after, .lines::before{
+  content: '';
+  position: absolute;
+  margin: auto;
+  height: 2px;
+  background: rgba(193,67,71,1);
+  width: 33%;
+  top: 45%;
+}
+
+.lines::after{
+  left: 0;
+}
+
+.lines::before{
+  right: 0;
+}
+
+
 
 
 .slideshow{

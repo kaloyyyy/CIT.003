@@ -60,6 +60,34 @@ h2{
   justify-content: center;
 }
 
+.topicdiv2{
+  border: solid #c45637 5px;
+  min-width: 70%;
+  border-radius: 10px;
+  padding: 1% 4%;
+  overflow: auto;
+  color: #de4f28;
+  margin: 1% 15%;
+  float: left;
+  display: inline-flex;
+  justify-content: space-evenly;
+  background-color: #d9984a;
+  font-family: meiryo;
+}
+
+.topicdiv3{
+  border: solid #c45637 5px;
+  min-width: 70%;
+  border-radius: 10px;
+  padding: 1% 4%;
+  overflow: auto;
+  color: #de4f28;
+  margin: 1% 15%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  background-color: #d9984a;
+  font-family: meiryo;
+}
 img{
   display: block;
   margin: 0 auto;

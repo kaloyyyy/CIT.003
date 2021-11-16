@@ -1,10 +1,4 @@
-body{
-  background: rgba(220, 180, 108, 1);
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-  color: rgb(193,67,71);
-  margin: 0% 0%;
-  padding: 0px;
-}
+
 .wholecontent{
   margin: 0% 15%;
 }
@@ -50,23 +44,15 @@ body{
 
 .topicdiv2{
   border: solid rgba(193,67,71,1) 3px;
-<<<<<<< Updated upstream
   max-width: 50%;
-=======
-  border-width: 100%;
   width: 70%;
->>>>>>> Stashed changes
   border-radius: 10px;
   padding: 1% 2%;
   overflow: auto;
   color: rgb(193,67,71);
-<<<<<<< Updated upstream
-  margin: 0%;
-=======
   margin: 1% 15%;
   display: inline-flex;
   justify-content: space-evenly;
->>>>>>> Stashed changes
   background-color: rgba(243, 188, 134, 0.9);
   font-family: meiryo;
 }

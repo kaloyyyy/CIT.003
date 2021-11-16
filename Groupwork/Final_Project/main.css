@@ -1,12 +1,12 @@
 body{
   background: rgb(68,68,68);
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: helvetica, sans-serif;
   color: white;
   margin: 0% 0%;
   padding: 0px
 }
 a{
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: Helvetica, sans-serif;
   text-decoration: none;
   color: rgba(251, 199, 100, 1.0);
   margin-bottom: 5%;

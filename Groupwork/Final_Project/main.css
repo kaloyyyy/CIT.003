@@ -3,12 +3,14 @@ body{
   font-family: "Helvetica", sans-serif;
   font-size: 15px;
   color: rgb(193,67,71);
+  color: white;
   margin: 0% 0%;
-  padding: 0px;
+  padding: 0px
 }
 a{
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Helvetica", sans-serif;
   text-decoration: none;
+  font-size: 18px;
   color: rgba(251, 199, 100, 1.0);
   margin-bottom: 5%;
 }
@@ -17,20 +19,10 @@ a{
 }
 /*end of general css*/
 
-
-
-.diRaw{
-  border: solid rgba(204, 68, 68, 1.0) 3px;
-  min-width: 70%;
-  border-radius: 10px;
-  padding: 1% 2%;
-  display: inline-flex;
-  overflow: auto;
-  color: rgb(193,67,71);
-  margin: 1% 15%;
-  justify-content: space-evenly;
-  background-color: rgba(240,166,93,0.9);
+.content{
+  margin: 0% 20%;
 }
+
 .history{
   padding-top: 1%;
   width: 60%;

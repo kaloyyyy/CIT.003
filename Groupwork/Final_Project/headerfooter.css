@@ -27,7 +27,7 @@
   margin-right: auto;
   margin-left: auto;
   position: absolute;
-  top: 32px;
+  top: 28px;
   height: 133px;
   border-radius: 20%;
   border: solid rgba(255,150,150, 0.7) 2px;
@@ -35,7 +35,7 @@
 }
 .header {
   background: rgba(193,67,71,1);  
-  text-align: center;
+  text-align: center;o
   max-height: 175px;
   height: auto;
 }
@@ -78,10 +78,10 @@
 .dropdown a{
   text-decoration: none;
   color: rgb(251, 199, 100);
+  padding: 5px;
 }
 .dropdown a:hover{
   text-decoration: none;
-  color: rgba(251, 199, 100,1);
 }
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -125,7 +125,7 @@
   background-color: rgba(255,255,255,0.5);
   z-index: 10;
   text-decoration: none;
-    animation-name: transition1;
+  animation-name: transition1;
   animation-duration: 0.5s;
 }
 
@@ -146,7 +146,7 @@
   margin: 0% 15%;
 }
 #foot{
-  padding: 0.5% 0%;
+  padding: 0.8% 0%;
   z-index: 10;
   background: rgba(86,59,66,1); 
 }
@@ -162,6 +162,7 @@
   font-size: 1em;
   text-decoration: none;
   color: rgb(251, 199, 100);
+  padding: 5px;
 }
 /* The container <div> - needed to position the dropdown content */
 .dropdown .footer{
@@ -191,7 +192,6 @@
 
 /* Links inside the dropdown */
 .dropdown-content .footer a {
-  color: black;
   font-size: 18px;
   padding: 1%;
   display: inline-block;
@@ -215,18 +215,21 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .footer .dropdown:hover .dropbtn {
   background-color: rgba(251, 251, 251,0.5);
-  text-decoration: underline;
+  text-decoration: none;
   z-index: 10;
+  padding: 0;
   animation-name: transition;
   animation-duration: 0.5s;
 }
 .logofooter{
   width: 50%;
   border-radius: 50%;
+  border: solid rgba(0, 0, 0, 0.7) 2px;
 }
 .dropbtnlogo{
   background-color: rgb(86,59,66);
   border-width: 0px;
+  width: fit-content;
 }
 @keyframes transition {
   from {background-color: rgba(0,0,0,0);}
@@ -241,3 +244,4 @@ body{
   bottom: -200px;
   width: 100%;
 }
+

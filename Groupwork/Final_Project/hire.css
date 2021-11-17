@@ -1,0 +1,67 @@
+h1{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 1%;
+  margin: 0% 30%;
+}
+
+.topicdiv{
+  border: solid #c45637 5px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1% 3%;
+  overflow: auto;
+  color: white;
+  margin: 1% 0%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to bottom,rgba(243, 188, 134, 0.9), rgba(240,166,93,0.9));
+}
+
+.topicdiv1{
+  width: 100%;
+  height: auto;
+  border: solid #a8492f 5px;
+  margin: 1% 0%;
+  min-width: 70%;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to bottom,rgb(240,166,93), rgb(226,109,76));
+}
+
+.endorsers{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1%;
+}
+
+.about1bodytext h2{
+  /*note to self to edit this and choose 2 fonts*/
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 1%;
+}
+
+
+
+.about2bodytext h2{
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'arial';
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+
+

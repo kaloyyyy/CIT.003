@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="submit">
+		<div class="io">
+			<div class="loginPanel">Login Panel</div>
+			<center>
+			<div class="input">
+				<input type="text" id="user" placeholder="Enter your identification number" name="uname" required><br>
+   				<input type="password" id="password" placeholder="Enter your Password" name="psw" required>
+			</div>
+			<button type="submit" onclick="login()">Submit</button>
+		</div>
+	</div>
+<script>
+function login(){
+	var name = document.getElementById('user').value;
+	var password = document.getElementById('password').value;
+	alert("Username: " +name+"\n" +"password: "+password);
+	document.getElementById("user").style.backgroundColor = "rgb(" + 250 + "," + 255 + "," + 189 + ")";
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body{
+    background: rgba(239, 239, 239, 1.0);
+    font-family: arial;
+    color: white;
+}
+
+.loginPanel{
+    border-bottom: solid white 1px;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+body{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: 5% 30%;
+}
+
+.submit{
+    border: solid rgba(28,119,152, 1.0); 2px;
+    background-color:  rgba(26,117,150, 1.0);
+    border-radius: 7px;
+    width: 60%;
+    padding:0.5% 1%; 
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.io{
+    padding: 3%;
+}
+
+input[type=text], input[type=password] {
+  width: 80%;
+  height:5px;
+  padding: 12px 20px;
+  margin: 2% 0%;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+button{
+    background: rgba(239, 239, 239, 1.0);
+    width: 25%;
+    height: 35px;
+    border: solid 1px rgb(52,65,156);
+    border-radius: 3px;
+}

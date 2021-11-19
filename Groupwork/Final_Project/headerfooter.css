@@ -10,8 +10,7 @@
 
 #banner img{
   width: 100%;
-  height: auto;
-  max-height: auto;
+  height: 157px;
   object-fit: cover;
 }
 #logo img:hover{
@@ -19,10 +18,10 @@
   border-color: rgba(207.19, 207.19, 207.19, 0.5);
   animation-name: logotrans;
   animation-duration: 0.4s;
-  width: 240px;
+  width: 234px;
   height: auto;
-  top: 2%;
-  border-radius: 9%;
+  top: 18px;
+  border-radius: 25%;
 }
 
 #logo img{
@@ -32,52 +31,55 @@
   margin-right: auto;
   margin-left: auto;
   position: absolute;
-  top: 1.8em;
+  top: 28px;
   width: 190px;
   height: auto;
-  border-radius: 20%;
+  border-radius: 9%;
   border: solid rgba(255,150,150, 0.7) 2px;
   background-color: rgba(255,150,150, 0.4);
   animation-name: reverse;
-  animation-duration: 0.4s;
+  animation-duration: 0.2s;
 }
-
 @keyframes logotrans {
-  from {width: 190px;
-    top: 1.8em;
-    border-radius: 20%;
+  from {
+    width: 190px;
+    top: 28px;
+    border-radius: 9%;
     border: solid rgba(255,150,150, 0.7) 2px;
     background-color: rgba(255,150,150, 0.4);
 }
-  to {width: 240px;
-    top: 2%;
-    border-radius: 9%; 
+  to {
+    width: 234px;
+    top: 18px;
+    border-radius: 25%; 
     background-color: rgba(207.19, 207.19, 207.19, 0.59);
     border-color: rgba(207.19, 207.19, 207.19, 0.5);}
 }
 
 @keyframes reverse {
-  from {
-    width: 240px;
-    top: 2%;
-    border-radius: 9%; 
+  0% {
+    width: 234px;
+    top: 18px;
+    border-radius: 25%; 
     background-color: rgba(207.19, 207.19, 207.19, 0.59);
-    border-color: rgba(207.19, 207.19, 207.19, 0.5);}
-}
-  to {
+    border-color: rgba(207.19, 207.19, 207.19, 0.5);
+  }
+  50% {
+  }
+  100%{
     width: 190px;
-    top: 1.8em;
-    border-radius: 20%;
+    top: 28px;
+    border-radius: 9%;
     border: solid rgba(255,150,150, 0.7) 2px;
     background-color: rgba(255,150,150, 0.4);
+  }
 }
 
 
 .header {
   background: rgba(193,67,71,1);  
-  text-align: center;o
-  max-height: 175px;
-  height: auto;
+  text-align: center;
+  height: 175px;
 }
 
 .sticky{

@@ -10,14 +10,19 @@
 
 #banner img{
   width: 100%;
-  height: 150px;
-  max-width: 100%;
+  height: auto;
   max-height: auto;
   object-fit: cover;
 }
 #logo img:hover{
-  background-color: rgba(0, 0, 0, 0.3);
-  border-color: black;
+  background-color: rgba(207.19, 207.19, 207.19, 0.59);
+  border-color: rgba(207.19, 207.19, 207.19, 0.5);
+  animation-name: logotrans;
+  animation-duration: 0.4s;
+  width: 240px;
+  height: auto;
+  top: 2%;
+  border-radius: 9%;
 }
 
 #logo img{
@@ -27,12 +32,47 @@
   margin-right: auto;
   margin-left: auto;
   position: absolute;
-  top: 28px;
-  height: 133px;
+  top: 1.8em;
+  width: 190px;
+  height: auto;
   border-radius: 20%;
   border: solid rgba(255,150,150, 0.7) 2px;
   background-color: rgba(255,150,150, 0.4);
+  animation-name: reverse;
+  animation-duration: 0.4s;
 }
+
+@keyframes logotrans {
+  from {width: 190px;
+    top: 1.8em;
+    border-radius: 20%;
+    border: solid rgba(255,150,150, 0.7) 2px;
+    background-color: rgba(255,150,150, 0.4);
+}
+  to {width: 240px;
+    top: 2%;
+    border-radius: 9%; 
+    background-color: rgba(207.19, 207.19, 207.19, 0.59);
+    border-color: rgba(207.19, 207.19, 207.19, 0.5);}
+}
+
+@keyframes reverse {
+  from {
+    width: 240px;
+    top: 2%;
+    border-radius: 9%; 
+    background-color: rgba(207.19, 207.19, 207.19, 0.59);
+    border-color: rgba(207.19, 207.19, 207.19, 0.5);}
+}
+  to {
+    width: 190px;
+    top: 1.8em;
+    border-radius: 20%;
+    border: solid rgba(255,150,150, 0.7) 2px;
+    background-color: rgba(255,150,150, 0.4);
+}
+
+
 .header {
   background: rgba(193,67,71,1);  
   text-align: center;o
@@ -159,11 +199,19 @@
   z-index: 10;
 }
 .dropdown .footer a{
-  font-size: 1em;
   text-decoration: none;
   color: rgb(251, 199, 100);
-  padding: 5px;
+  padding:2;
+  border: solid black 2px;
 }
+.dropdown .footer a:hover{
+  background-color: rgba(251, 251, 251,0.5);
+  text-decoration: none;
+  z-index: 10;
+  animation-name: transition;
+  animation-duration: 1s;
+}
+
 /* The container <div> - needed to position the dropdown content */
 .dropdown .footer{
   position: relative;
@@ -198,16 +246,6 @@
   z-index: 10;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content .footer a:hover {
-  background-color: rgba(86,59,66, 0.1);   
-  z-index: 10;
-  height: 10;
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .footer .dropdown-content {display: block;  z-index: 10;}
@@ -217,9 +255,8 @@
   background-color: rgba(251, 251, 251,0.5);
   text-decoration: none;
   z-index: 10;
-  padding: 0;
   animation-name: transition;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
 }
 .logofooter{
   width: 50%;

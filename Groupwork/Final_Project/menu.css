@@ -41,7 +41,7 @@
   padding: 1% 2%;
   display: inline-flex;
   overflow: auto;
-  color: rgb(193,67,71);
+  color: white;
   margin-bottom: 2%;
   background-color: rgb(33, 33, 33);
 }
@@ -51,7 +51,7 @@
 }
   
 .bodytext p{
-  text-align: left;
+  text-align: justify;
 }
 
 .topicdiv p{

@@ -12,11 +12,11 @@ document.write('\
 			<div class="navbar">\
 				<div class="dropdown">\
 					<button class="dropbtn">\
-					<div id="home"><a href="HomePage.html">Home</a></div>\
+					<div id="home" class="pagenow"><a href="HomePage.html">Home</a></div>\
 					</button>\
 				</div>\
 				<div class="dropdown"><button class="dropbtn">\
-					<div id="menu"><a href="menu.html">I\'m hungry!</a></div>\
+					<div id="menu" class="pagenow"><a href="menu.html">I\'m hungry!</a></div>\
 					</button>\
 					<div class="dropdown-content">\
 					</div>\
@@ -24,7 +24,7 @@ document.write('\
 						\
 				<div class="dropdown">\
 					<button class="dropbtn">\
-					<div id="news"><a href="news.html">News and Blogs</a></div>\
+					<div id="news" class="pagenow"><a href="news.html">News and Blogs</a></div>\
 					</button>\
 					<div class="dropdown-content">\
 					</div>\
@@ -32,7 +32,7 @@ document.write('\
 				\
 				<div class="dropdown">\
 					<button class="dropbtn">\
-					<div id="about"><a href="about.html">About us</a></div>\
+					<div id="about" class="pagenow"><a href="about.html">About us</a></div>\
 					</button>\
 					<div class="dropdown-content">\
 					</div>\
@@ -40,7 +40,7 @@ document.write('\
 				\
 				<div class="dropdown">\
 					<button class="dropbtn">\
-					<div id="hire"><a href="hire.html">Now Hiring</a></div>\
+					<div id="hire" class="pagenow"><a href="hire.html">Now Hiring</a></div>\
 					</button>\
 					<div class="dropdown-content">\
 					</div>\

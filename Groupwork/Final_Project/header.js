@@ -4,8 +4,8 @@ document.write('\
 				<div class="punchline"><h4>Di raw masyandong masarap pero pwede na!</h4></div>\
 			<div class="banner">\
 				<div id="banner"><img src="Background2.png"></img></div>\
-				<div id="logo"><a href="HomePage.html" class="home"><img src="logo_banner_3.png"></a></img>\
-				</div>\
+				<div id="logo"><a href="HomePage.html" class="home"><div id="imglogo"><img src="logo_banner_3.png"></a></img>\
+				</div></div>\
 			</div>\
 		</div>\
 		<div id="navbar">\

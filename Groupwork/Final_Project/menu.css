@@ -24,15 +24,16 @@
   display: inline-flex;
   justify-content: space-evenly;
   background-color: rgba(243, 188, 134, 0.9);
+  font-family: meiryo;
 }
 
 .topicdiv2 h2{
-  font-family: Arial, sans-serif;
+  font-family: bebas neue, monsterat;
+  /*note to self to edit this and choose 2 fonts*/
   font-size: 18px;
 }
 
 .topicdiv{
-  font-family: meiryo;
   border: solid rgba(193,67,71,1) 3px;
   min-width: 90%;
   max-width: 90%;

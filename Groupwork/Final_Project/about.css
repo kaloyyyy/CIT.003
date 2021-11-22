@@ -1,7 +1,7 @@
 
-.topicdiv1 h1{
+h1{
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   color: white;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -9,23 +9,15 @@
   margin: 0% 30%;
 }
 
-.about2bodytext h2{
-  font-size: 15px;
+h2{
+  font-size: 18px;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   padding: 1%;
   text-align: center;
 }
 
-.about1bodytext h2{
-  font-size: 15px;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 4px;
-  padding: 1%;
-  text-align: center;
-}
-
-.about3bodytext h4{
+h4{
   font-size: 17px;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 4px;
@@ -114,6 +106,13 @@
   text-align: center;
 }
 
+a{
+  font-size: 17px;
+  color: #ffffff;
+}
+a:visited{
+  color: rgb(70,70,70);
+}
 img{
   display: block;
   margin: 0 auto;

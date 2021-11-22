@@ -1,6 +1,6 @@
 body{
   background: rgb(68,68,68);
-  font-family: "Helvetica", sans-serif;
+  font-family: meiryo;
   font-size: 15px;
   color: rgb(193,67,71);
   color: white;
@@ -8,7 +8,7 @@ body{
   padding: 0px
 }
 a{
-  font-family: "Helvetica", sans-serif;
+  font-family: meiryo;
   font-size: 18px;
 }
 #pagetag{

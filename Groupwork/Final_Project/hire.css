@@ -9,7 +9,7 @@ h1{
 }
 
 .topicdiv{
-  border: solid #c45637 5px;
+  border: solid #c45637 4px;
   width: 100%;
   border-radius: 10px;
   padding: 1% 3%;
@@ -24,7 +24,7 @@ h1{
 .topicdiv1{
   width: 100%;
   height: auto;
-  border: solid #a8492f 5px;
+  border: solid #a8492f 4px;
   margin: 1% 0%;
   min-width: 70%;
   border-radius: 10px;

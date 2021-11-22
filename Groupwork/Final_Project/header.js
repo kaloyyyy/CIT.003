@@ -88,6 +88,9 @@ if(text=="news"){
 if(text=="about"){
 	bordercurr();
 }
+if(text=="hire"){
+	bordercurr();
+}
 
 function bordercurr(){
 	document.getElementById(text).style.borderBottom = "5px solid green";

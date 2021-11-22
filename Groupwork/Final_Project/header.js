@@ -1,4 +1,4 @@
-document.write('\
+document.write('<center>\
 <div class="header" id="header">\
 			<center id="hdr">\
 				<div class="punchline"><h4>Di raw masyandong masarap pero pwede na!</h4></div>\
@@ -49,7 +49,7 @@ document.write('\
 		</div><br>\
 		<div id="placeholder"></div>\	\
 		</center>\
-');
+		</center>');
 window.onscroll = function() {myFunction()};
 var divHeight;
 var obj = document.getElementById('navbar');

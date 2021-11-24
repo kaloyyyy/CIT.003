@@ -22,6 +22,7 @@
   background-color: rgba(0, 0, 0, 0.3);
   padding: 3;
   margin: 3;
+  font-family: "Calibri", sans-serif;
 }
 
 .newsgroup{
@@ -58,6 +59,8 @@
   border-radius: 4px;
   margin: 2%;
   padding: 2%;
+  font-family: "Calibri", sans-serif;
+  font-style: italic;
 
 }
 

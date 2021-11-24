@@ -52,6 +52,8 @@
   
 .bodytext p{
   text-align: center;
+  font-style: italic;
+  font-family: "Calibri", sans-serif;
 }
 
 .topicdiv p{

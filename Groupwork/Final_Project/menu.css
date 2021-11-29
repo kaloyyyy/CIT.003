@@ -1,59 +1,83 @@
-.wholecontent{
-  margin: 0% 15%;
-}
-
-
 .bodytext{
   text-align: center;
   padding: 0% 1%;
-  margin: 0% 5%;
-}
-.content{
-
+  margin: 0% 0%;
 }
 
 .topicdiv2{
   border: solid rgba(193,67,71,1) 3px;
-  border-width: 100%;
-  width: 70%;
+  width: 100%;
   border-radius: 10px;
   padding: 1% 2%;
   overflow: auto;
-  color: rgb(193,67,71);
-  margin: 1% 15%;
+  color: white;
+  margin: 2% 0%;
   display: inline-flex;
   justify-content: space-evenly;
-  background-color: rgba(243, 188, 134, 0.9);
-  font-family: meiryo;
+  background-image: linear-gradient(to bottom,rgba(243, 188, 134, 0.9), rgba(240,166,93,0.9));
 }
 
 .topicdiv2 h2{
-  font-family: bebas neue, monsterat;
-  /*note to self to edit this and choose 2 fonts*/
   font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 3;
+  margin: 3;
 }
 
+.newsgroup{
+  background-image: linear-gradient(to bottom,rgb(240,166,93), rgb(226,109,76));
+  padding: 1% 1%;
+  border: solid rgba(193,67,71,1) 4px;
+  border-radius: 8px;
+}
 .topicdiv{
-  border: solid rgba(193,67,71,1) 3px;
-  min-width: 90%;
-  max-width: 90%;
+  border: solid rgba(255,255,255,0.7) 4px;
+  width: 100%;
   border-radius: 10px;
-  padding: 1% 2%;
+  padding: 1% 1%;
   display: inline-flex;
   overflow: auto;
   color: white;
-  margin-bottom: 2%;
-  background-color: rgb(33, 33, 33);
+  margin-top: 2%;
+  background-image: linear-gradient(to bottom, rgb(20,20,20),rgb(70,70,70));
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 .topicdiv img{
-  position: relative;
-  padding-left: 5%;
+  width: 350px;
+  height: auto;
+  padding: 3%;
 }
   
 .bodytext p{
-  text-align: center;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  margin: 2%;
+  padding: 2%;
+
 }
 
 .topicdiv p{
-  font-size: 20px;
+  font-size: 17px;
 }
+
+
+
+
+
+
+/* <div class="wholecontent">
+      <center>
+      <div class="lines">
+      <div class="punchline"><h3>ULING NEWS</h3></div>
+    </div>
+      <div class="content"><!--class content basically the body-->
+        <div class="topicdiv2">
+        <insert image here>
+        <div class="about1menutext">
+          <h2>Are you up to date with the current news about Uling Roasters and more? Here are some news and blogs for our ka-roasters for you to be updated!<br><br> Sumobra sa balita, pasenysa na!</h2>
+        </div>
+      </div>*/

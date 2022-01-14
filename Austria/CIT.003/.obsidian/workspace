@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Home Page - Uling Roasters.md",
+            "file": "minecraft.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#footer",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,12 +48,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 226
   },
   "right": {
     "id": "58d3a2a22f209316",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home Page - Uling Roasters.md",
+                "file": "minecraft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home Page - Uling Roasters.md",
+                "file": "minecraft.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home Page - Uling Roasters.md"
+                "file": "minecraft.md"
               }
             }
           }
@@ -118,19 +117,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314
+    "width": 178
   },
   "active": "773448038b656ce8",
   "lastOpenFiles": [
+    "minecraft.md",
     "Home Page - Uling Roasters.md",
-    "Policy.md",
-    "History.md",
-    "Delivery.md",
-    "Blogs and News.md",
     "About Page.md",
-    "Food Menu.md",
+    "I'm Hungry.md",
+    "Known Endorsers.md",
+    "Local Branches.md",
+    "Navigation Bar.md",
     "Now Hiring.md",
-    "Contact Page.md",
-    "Untitled.md"
+    "History.md",
+    "Food Menu.md"
   ]
 }

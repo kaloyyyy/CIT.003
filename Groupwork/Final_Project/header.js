@@ -93,6 +93,6 @@ if(text=="hire"){
 }
 
 function bordercurr(){
-	document.getElementById(text).style.borderBottom = "5px solid green";
+	document.getElementById(text).style.borderBottom = "5px solid yellow";
 }
 

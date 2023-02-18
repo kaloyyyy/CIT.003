@@ -7,11 +7,8 @@
         "id": "773448038b656ce8",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "minecraft.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "minecraft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "minecraft.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -107,9 +102,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "minecraft.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -121,15 +114,15 @@
   },
   "active": "773448038b656ce8",
   "lastOpenFiles": [
-    "minecraft.md",
     "Home Page - Uling Roasters.md",
+    "Blogs and News.md",
+    "minecraft.md",
     "About Page.md",
     "I'm Hungry.md",
     "Known Endorsers.md",
     "Local Branches.md",
     "Navigation Bar.md",
     "Now Hiring.md",
-    "History.md",
-    "Food Menu.md"
+    "History.md"
   ]
 }

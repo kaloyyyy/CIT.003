@@ -78,17 +78,13 @@ var text = node.innerHTML;
 
 if(text=="home"){
 	bordercurr();
-}
-if(text=="menu"){
+}else if(text=="menu"){
 	bordercurr();
-}
-if(text=="news"){
+}else if(text=="news"){
 	bordercurr();
-}
-if(text=="about"){
+}else if(text=="about"){
 	bordercurr();
-}
-if(text=="hire"){
+}else if(text=="hire"){
 	bordercurr();
 }
 

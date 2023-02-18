@@ -1,0 +1,28 @@
+:root{
+    --color-prim: #FF6F61;
+}
+body{
+    margin: 0;
+    background-color: var(--bg-prim);
+}
+.output{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+.fullname{
+    font-family: Grape Nuts, cursive;
+    font-size: 40px;
+    color: var(--color-prim);
+}
+.arImg{
+    width: 480px;
+    height: 480px; 
+    overflow: hidden;
+    top: -20px;
+}
+
+.arImg img {
+    margin: -270px 0px 0px 0px;
+}

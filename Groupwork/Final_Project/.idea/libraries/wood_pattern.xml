@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="wood_pattern">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/images/wood_pattern.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

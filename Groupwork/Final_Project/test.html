@@ -1,0 +1,20 @@
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var text, parser, xmlDoc;
+
+text = "<input id="button" type="button" class="button button1" onclick="ans(0)" value="Secretary Mar Roxas">"+
+        "<input id="button" type="button" class="button button1" onclick="ans(1)" value="Mayor Rodrigo Duterte">"+
+        "<input id="button" type="button" class="button button1" onclick="ans(2)" value="Sen. Miriam Defensor Santiago">"+
+        "<input id="button" type="button" class="button button1" onclick="ans(3)" value="Sen. Grace Poe">";
+
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(text,"text/xml");
+
+document.write = text;
+</script>
+
+</body>
